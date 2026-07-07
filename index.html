@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Morning Desk — Market & Strategic Intelligence</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0B1220;
+    --ink-2:#111A2E;
+    --paper:#F6F3EC;
+    --amber:#E8A33D;
+    --amber-dim:#8a6a2e;
+    --gain:#2FBF9F;
+    --loss:#F2545B;
+    --line:rgba(246,243,236,0.12);
+    --line-soft:rgba(246,243,236,0.07);
+    --text-dim:rgba(246,243,236,0.62);
+    --text-faint:rgba(246,243,236,0.38);
+    --radius:2px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--ink);
+    color:var(--paper);
+    font-family:'Inter', sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none;}
+  .mono{font-family:'IBM Plex Mono', monospace;}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 28px;}
+
+  /* ===== Ticker ===== */
+  .ticker-band{
+    background:var(--ink-2);
+    border-bottom:1px solid var(--line);
+    overflow:hidden;
+    white-space:nowrap;
+    position:relative;
+  }
+  .ticker-band::before,
+  .ticker-band::after{
+    content:"";
+    position:absolute;
+    top:0;bottom:0;
+    width:60px;
+    z-index:2;
+    pointer-events:none;
+  }
+  .ticker-band::before{left:0;background:linear-gradient(90deg, var(--ink-2), transparent);}
+  .ticker-band::after{right:0;background:linear-gradient(270deg, var(--ink-2), transparent);}
+  .ticker-track{
+    display:inline-flex;
+    gap:44px;
+    padding:9px 0;
+    animation:scroll 42s linear infinite;
+  }
+  .ticker-track span{
+    font-size:12.5px;
+    letter-spacing:0.02em;
+    color:var(--text-dim);
+  }
+  .ticker-track b{color:var(--paper);font-weight:600;margin-right:6px;}
+  .up{color:var(--gain);}
+  .down{color:var(--loss);}
+  @keyframes scroll{
+    from{transform:translateX(0);}
+    to{transform:translateX(-50%);}
+  }
+  @media (prefers-reduced-motion: reduce){
+    .ticker-track{animation:none;}
+  }
+
+  /* ===== Header ===== */
+  header.masthead{
+    padding:34px 0 24px;
+    border-bottom:1px solid var(--line);
+  }
+  .masthead-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    flex-wrap:wrap;
+    gap:16px;
+  }
+  .brand-eyebrow{
+    font-size:11px;
+    letter-spacing:0.16em;
+    text-transform:uppercase;
+    color:var(--amber);
+    margin:0 0 8px;
+  }
+  h1.brand{
+    font-family:'Fraunces', serif;
+    font-optical-sizing:auto;
+    font-weight:600;
+    font-size:clamp(34px, 5vw, 52px);
+    margin:0;
+    line-height:1;
+    letter-spacing:-0.01em;
+  }
+  .brand .accent{font-style:italic;font-weight:500;color:var(--amber);}
+  .edition-meta{
+    text-align:right;
+    font-size:12.5px;
+    color:var(--text-dim);
+    line-height:1.6;
+  }
+  .edition-meta .date{color:var(--paper);font-weight:500;}
+  nav.section-nav{
+    display:flex;
+    gap:26px;
+    margin-top:22px;
+    padding-top:18px;
+    border-top:1px solid var(--line-soft);
+    flex-wrap:wrap;
+  }
+  nav.section-nav a{
+    font-size:12.5px;
+    letter-spacing:0.04em;
+    text-transform:uppercase;
+    color:var(--text-dim);
+    transition:color .15s ease;
+  }
+  nav.section-nav a:hover, nav.section-nav a:focus-visible{color:var(--amber);}
+
+  /* ===== Storm zone (dynamic weather backdrop) ===== */
+  .storm-zone{
+    position:relative;
+    overflow:hidden;
+    background:var(--ink);
+    border-bottom:1px solid var(--line);
+  }
+  #weather-canvas{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+    display:block;
+  }
+  .storm-fade{
+    position:absolute;
+    left:0;right:0;bottom:0;
+    height:90px;
+    background:linear-gradient(to bottom, transparent, var(--ink));
+    z-index:1;
+    pointer-events:none;
+  }
+  .storm-caption{
+    position:absolute;
+    top:14px;
+    right:28px;
+    z-index:2;
+    font-size:11px;
+    letter-spacing:0.04em;
+    color:var(--text-dim);
+    background:rgba(11,18,32,0.55);
+    padding:5px 10px;
+    border:1px solid var(--line);
+  }
+  header.masthead, section.hero{position:relative;}
+
+  /* ===== Hero ===== */
+  .hero{
+    padding:56px 0 48px;
+    border-bottom:none;
+    position:relative;
+  }
+  .hero-grid{
+    display:grid;
+    grid-template-columns:1.5fr 1fr;
+    gap:56px;
+    align-items:end;
+  }
+  .confidence{
+    display:inline-flex;
+    align-items:center;
+    gap:7px;
+    font-size:11px;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    color:var(--text-dim);
+    margin-bottom:16px;
+  }
+  .dot{width:7px;height:7px;border-radius:50%;background:var(--gain);}
+  h2.headline{
+    font-family:'Fraunces', serif;
+    font-weight:500;
+    font-size:clamp(28px, 3.4vw, 44px);
+    line-height:1.08;
+    margin:0 0 18px;
+    letter-spacing:-0.01em;
+  }
+  .hero p.lede{
+    font-size:16px;
+    color:var(--text-dim);
+    line-height:1.65;
+    max-width:52ch;
+    margin:0;
+  }
+  .pulse-card{
+    border:1px solid var(--line);
+    padding:24px 24px 18px;
+    background:var(--ink-2);
+  }
+  .pulse-card h3{
+    font-size:11px;
+    letter-spacing:0.12em;
+    text-transform:uppercase;
+    color:var(--amber);
+    margin:0 0 16px;
+    font-weight:600;
+  }
+  .pulse-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    padding:10px 0;
+    border-bottom:1px solid var(--line-soft);
+  }
+  .pulse-row:last-child{border-bottom:none;}
+  .pulse-name{font-size:13.5px;color:var(--paper);}
+  .pulse-val{font-size:14px;font-weight:500;}
+  .pulse-delta{font-size:12px;margin-left:8px;}
+  svg.spark{display:block;margin-top:14px;width:100%;height:46px;}
+
+  /* ===== Section shell ===== */
+  section.block{
+    padding:52px 0;
+    border-bottom:1px solid var(--line);
+  }
+  .block-head{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    margin-bottom:30px;
+    gap:20px;
+  }
+  .block-head h2{
+    font-family:'Fraunces', serif;
+    font-weight:500;
+    font-size:24px;
+    margin:0;
+    display:flex;
+    align-items:center;
+    gap:10px;
+  }
+  .block-head .icon{font-size:20px;}
+  .block-head .tag{
+    font-size:11px;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--text-faint);
+  }
+
+  /* ===== Market grid ===== */
+  .market-cols{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:1px;
+    background:var(--line);
+    border:1px solid var(--line);
+  }
+  .market-col{background:var(--ink);padding:22px;}
+  .market-col h4{
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+    color:var(--text-faint);
+    margin:0 0 16px;
+  }
+  .mover{
+    display:flex;
+    justify-content:space-between;
+    padding:9px 0;
+    border-bottom:1px solid var(--line-soft);
+    font-size:13.5px;
+  }
+  .mover:last-child{border-bottom:none;}
+  .mover .name{color:var(--paper);}
+  .mover .chg{font-family:'IBM Plex Mono', monospace;font-size:13px;}
+
+  /* ===== Cards grid (IPO / Insider) ===== */
+  .card-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));
+    gap:1px;
+    background:var(--line);
+    border:1px solid var(--line);
+  }
+  .info-card{
+    background:var(--ink);
+    padding:22px;
+  }
+  .info-card .top-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin-bottom:10px;
+  }
+  .info-card h5{
+    font-size:15.5px;
+    margin:0;
+    font-weight:600;
+  }
+  .badge{
+    font-size:10px;
+    letter-spacing:0.05em;
+    text-transform:uppercase;
+    padding:3px 7px;
+    border:1px solid currentColor;
+  }
+  .badge.high{color:var(--gain);}
+  .badge.med{color:var(--amber);}
+  .badge.low{color:var(--loss);}
+  .info-card p{
+    font-size:13px;
+    color:var(--text-dim);
+    line-height:1.55;
+    margin:0 0 12px;
+  }
+  .info-card .meta{
+    font-size:11.5px;
+    color:var(--text-faint);
+    display:flex;
+    justify-content:space-between;
+    border-top:1px solid var(--line-soft);
+    padding-top:10px;
+  }
+
+  /* ===== Geopolitical strip ===== */
+  .geo-strip{
+    background:var(--ink-2);
+    border-top:1px solid var(--amber-dim);
+    border-bottom:1px solid var(--amber-dim);
+    padding:44px 0;
+  }
+  .geo-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(240px,1fr));
+    gap:28px;
+  }
+  .geo-item{border-left:2px solid var(--amber);padding-left:16px;}
+  .geo-item h6{
+    font-size:13.5px;
+    margin:0 0 6px;
+    font-weight:600;
+  }
+  .geo-item p{
+    font-size:12.5px;
+    color:var(--text-dim);
+    margin:0;
+    line-height:1.55;
+  }
+
+  footer{
+    padding:30px 0 46px;
+    font-size:11.5px;
+    color:var(--text-faint);
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:10px;
+  }
+
+  @media (max-width: 860px){
+    .hero-grid{grid-template-columns:1fr;}
+    .market-cols{grid-template-columns:1fr;}
+    .masthead-row{flex-direction:column;align-items:flex-start;}
+    .edition-meta{text-align:left;}
+  }
+</style>
+</head>
+<body>
+
+  <div class="ticker-band">
+    <div class="ticker-track mono" id="ticker-track" aria-hidden="true">
+      <span class="ts-loading">Loading market data…</span>
+    </div>
+  </div>
+
+  <div class="storm-zone" id="storm-zone">
+    <canvas id="weather-canvas"></canvas>
+    <div class="storm-caption mono" id="storm-caption">Loading conditions…</div>
+    <div class="storm-fade"></div>
+    <div class="wrap" style="position:relative;z-index:2;">
+    <header class="masthead">
+      <div class="masthead-row">
+        <div>
+          <p class="brand-eyebrow">Daily Intelligence Briefing</p>
+          <h1 class="brand">The Morning <span class="accent">Desk</span></h1>
+        </div>
+        <div class="edition-meta mono">
+          <div class="date" id="edition-date">Loading…</div>
+          <div id="edition-label">Pre-Market Edition</div>
+        </div>
+      </div>
+      <nav class="section-nav">
+        <a href="#markets">Markets</a>
+        <a href="#radar">Pre-Market Radar</a>
+        <a href="#insider">Insider Intelligence</a>
+        <a href="#calendar">IPO &amp; Earnings</a>
+        <a href="#geo">Geopolitical Desk</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-grid">
+        <div>
+          <div class="confidence mono" id="hero-confidence"><span class="dot"></span> LOADING…</div>
+          <h2 class="headline" id="hero-headline">Fetching latest briefing…</h2>
+          <p class="lede" id="hero-lede">Data refreshes automatically from data.json.</p>
+        </div>
+        <div class="pulse-card">
+          <h3>Market Pulse — Nifty 50</h3>
+          <div class="pulse-row">
+            <span class="pulse-name">Last Close</span>
+            <span class="pulse-val mono" id="pulse-close">—</span>
+          </div>
+          <div class="pulse-row">
+            <span class="pulse-name">FII Net (₹ Cr)</span>
+            <span class="pulse-val mono" id="pulse-fii">—</span>
+          </div>
+          <div class="pulse-row">
+            <span class="pulse-name">DII Net (₹ Cr)</span>
+            <span class="pulse-val mono" id="pulse-dii">—</span>
+          </div>
+          <svg class="spark" id="pulse-spark" viewBox="0 0 260 46" preserveAspectRatio="none">
+            <polyline fill="none" stroke="#2FBF9F" stroke-width="2" points="" />
+          </svg>
+        </div>
+      </div>
+    </section>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <section class="block" id="markets">
+      <div class="block-head">
+        <h2><span class="icon">📊</span> Market &amp; Sector Intelligence</h2>
+        <span class="tag mono">Source: Moneycontrol + BSE + Reuters</span>
+      </div>
+      <div class="market-cols">
+        <div class="market-col">
+          <h4>Top Gainers — NSE</h4>
+          <div id="market-gainers"></div>
+        </div>
+        <div class="market-col">
+          <h4>Top Losers — NSE</h4>
+          <div id="market-losers"></div>
+        </div>
+        <div class="market-col">
+          <h4>AI &amp; Green Energy Watch</h4>
+          <div id="market-watch"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="radar">
+      <div class="block-head">
+        <h2><span class="icon">🚨</span> Pre-Market Momentum Radar</h2>
+        <span class="tag mono">Confidence-labelled · 🟢 🟡 🔴</span>
+      </div>
+      <div class="card-grid" id="radar-cards"></div>
+    </section>
+
+    <section class="block" id="insider">
+      <div class="block-head">
+        <h2><span class="icon">🕵️</span> Insider &amp; Smart Money Intelligence</h2>
+        <span class="tag mono">Source: BSE / NSE / SEC Form 4</span>
+      </div>
+      <div class="card-grid" id="insider-cards"></div>
+    </section>
+
+    <section class="block" id="calendar">
+      <div class="block-head">
+        <h2><span class="icon">📅</span> IPO, Earnings &amp; Macro Calendar</h2>
+        <span class="tag mono">Next 7–10 Days</span>
+      </div>
+      <div class="card-grid" id="calendar-cards"></div>
+    </section>
+  </div>
+
+  <div class="geo-strip" id="geo">
+    <div class="wrap">
+      <div class="block-head" style="margin-bottom:26px;">
+        <h2><span class="icon">🌐</span> Geopolitical &amp; Strategic Resources</h2>
+        <span class="tag mono">Standing Section</span>
+      </div>
+      <div class="geo-grid" id="geo-grid"></div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <footer class="mono">
+      <span>The Morning Desk — compiled for personal market intelligence use</span>
+      <span class="visit-counter">
+        <img id="visit-badge" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fthemorningdesk.example.com&count_bg=%23E8A33D&title_bg=%230B1220&icon=&icon_color=%23F6F3EC&title=visits&edge_flat=false" alt="Total visits" style="height:20px;vertical-align:middle;">
+      </span>
+      <span>Sources verified per BSE / NSE / SEC scanning protocol</span>
+    </footer>
+  </div>
+
+  <script>
+    const DATA_URL = 'data.json';
+    const REFRESH_MS = 5 * 60 * 1000; // re-check every 5 minutes
+
+    function fmtDate(iso) {
+      try {
+        return new Date(iso).toLocaleString('en-IN', {
+          weekday: 'long', day: '2-digit', month: 'long', year: 'numeric',
+          hour: '2-digit', minute: '2-digit'
+        });
+      } catch { return iso; }
+    }
+
+    function dirSpan(direction, text) {
+      const cls = direction === 'up' ? 'up' : direction === 'down' ? 'down' : '';
+      return `<span class="${cls}">${text}</span>`;
+    }
+
+    function renderTicker(items) {
+      const track = document.getElementById('ticker-track');
+      if (!items || !items.length) return;
+      const row = items.map(i =>
+        `<span><b>${i.symbol}</b>${i.value} ${dirSpan(i.direction, i.change)}</span>`
+      ).join('');
+      track.innerHTML = row + row; // duplicate for seamless scroll loop
+    }
+
+    function renderHero(hero) {
+      if (!hero) return;
+      const dotColor = hero.confidence === 'HIGH' ? 'var(--gain)'
+        : hero.confidence === 'MEDIUM' ? 'var(--amber)' : 'var(--loss)';
+      document.getElementById('hero-confidence').innerHTML =
+        `<span class="dot" style="background:${dotColor}"></span> ${hero.confidence} CONFIDENCE · ${hero.confidence_note || ''}`;
+      document.getElementById('hero-headline').textContent = hero.headline || '';
+      document.getElementById('hero-lede').textContent = hero.lede || '';
+    }
+
+    function renderPulse(pulse) {
+      if (!pulse) return;
+      document.getElementById('pulse-close').innerHTML =
+        `${pulse.last_close} <span class="pulse-delta ${pulse.direction}">${pulse.change}</span>`;
+      document.getElementById('pulse-fii').innerHTML = `<span class="up">${pulse.fii_net}</span>`;
+      document.getElementById('pulse-dii').innerHTML = `<span class="up">${pulse.dii_net}</span>`;
+      if (pulse.spark && pulse.spark.length) {
+        const w = 260, h = 46, max = Math.max(...pulse.spark), min = Math.min(...pulse.spark);
+        const pts = pulse.spark.map((v, i) => {
+          const x = (i / (pulse.spark.length - 1)) * w;
+          const y = h - ((v - min) / (max - min || 1)) * h;
+          return `${x.toFixed(1)},${y.toFixed(1)}`;
+        }).join(' ');
+        document.querySelector('#pulse-spark polyline').setAttribute('points', pts);
+      }
+    }
+
+    function moverRow(m) {
+      return `<div class="mover"><span class="name">${m.name}</span><span class="chg ${m.direction}">${m.direction === 'up' ? '▲' : '▼'} ${m.change}</span></div>`;
+    }
+
+    function renderMarket(market) {
+      if (!market) return;
+      document.getElementById('market-gainers').innerHTML = (market.gainers || []).map(moverRow).join('');
+      document.getElementById('market-losers').innerHTML = (market.losers || []).map(moverRow).join('');
+      document.getElementById('market-watch').innerHTML = (market.watch || []).map(moverRow).join('');
+    }
+
+    function badgeClass(impact) {
+      if (/bull|strong|high/i.test(impact)) return 'high';
+      if (/bear|negative|weak/i.test(impact)) return 'low';
+      return 'med';
+    }
+
+    function renderCards(containerId, items, tpl) {
+      const el = document.getElementById(containerId);
+      if (!el) return;
+      el.innerHTML = (items || []).map(tpl).join('');
+    }
+
+    function renderRadar(items) {
+      renderCards('radar-cards', items, r => `
+        <div class="info-card">
+          <div class="top-row"><h5>${r.company}</h5><span class="badge ${badgeClass(r.impact)}">${r.impact}</span></div>
+          <p>${r.summary}</p>
+          <div class="meta mono"><span>${r.confidence_icon || ''} ${r.source}</span><span>Priced in: ${r.priced_in}</span></div>
+        </div>`);
+    }
+
+    function renderInsider(items) {
+      renderCards('insider-cards', items, r => `
+        <div class="info-card">
+          <div class="top-row"><h5>${r.company}</h5><span class="badge ${badgeClass(r.signal)}">${r.signal}</span></div>
+          <p>${r.summary}</p>
+          <div class="meta mono"><span>${r.confidence_icon || ''} ${r.source}</span><span>${r.type}</span></div>
+        </div>`);
+    }
+
+    function renderCalendar(items) {
+      renderCards('calendar-cards', items, r => `
+        <div class="info-card">
+          <div class="top-row"><h5>${r.name}</h5><span class="badge ${badgeClass(r.tag)}">${r.tag}</span></div>
+          <p>${r.details}</p>
+          <div class="meta mono"><span>${r.type}</span><span>${r.status || ''}</span></div>
+        </div>`);
+    }
+
+    function renderGeo(items) {
+      const el = document.getElementById('geo-grid');
+      if (!el) return;
+      el.innerHTML = (items || []).map(g => `
+        <div class="geo-item">
+          <h6>${g.title}</h6>
+          <p>${g.summary}</p>
+        </div>`).join('');
+    }
+
+    async function loadFeed() {
+      try {
+        const res = await fetch(`${DATA_URL}?_=${Date.now()}`); // cache-bust
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+
+        document.getElementById('edition-date').textContent = fmtDate(data.updated_at);
+        if (data.edition_label) document.getElementById('edition-label').textContent = data.edition_label;
+
+        renderTicker(data.ticker);
+        renderHero(data.hero);
+        renderPulse(data.pulse);
+        renderMarket(data.market);
+        renderRadar(data.radar);
+        renderInsider(data.insider);
+        renderCalendar(data.calendar);
+        renderGeo(data.geo);
+      } catch (err) {
+        console.error('Feed load failed:', err);
+        document.getElementById('edition-date').textContent = 'Data unavailable — showing last known state';
+      }
+    }
+
+    loadFeed();
+    setInterval(loadFeed, REFRESH_MS);
+  </script>
+
+  <script>
+    /* ============================================================
+       Weather backdrop — picks a theme from real conditions when
+       reachable, falls back to the Indian seasonal calendar, and
+       drives a small canvas particle system (rain/lightning/fog/
+       heat-shimmer) confined to the masthead+hero band.
+       ============================================================ */
+    const LAT = 17.385, LON = 78.4867; // Hyderabad — change to your city
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    const THEMES = {
+      monsoon:     { label: 'Monsoon skies',   rain: true,  lightning: true,  fog: false, tint: 'rgba(30,60,90,0.35)',  particle: '#9fc9e8' },
+      rain:        { label: 'Rainy',            rain: true,  lightning: false, fog: false, tint: 'rgba(25,45,70,0.30)',  particle: '#8fb8dd' },
+      'post-monsoon': { label: 'Humid, clearing', rain: false, lightning: false, fog: true,  tint: 'rgba(60,55,45,0.25)',  particle: '#c9b98a' },
+      winter:      { label: 'Winter haze',      rain: false, lightning: false, fog: true,  tint: 'rgba(40,50,60,0.30)',  particle: '#b9c6d1' },
+      summer:      { label: 'Summer heat',      rain: false, lightning: false, fog: false, tint: 'rgba(90,55,20,0.25)',  particle: '#f2b25c', heat: true },
+    };
+
+    function seasonFromMonth(month) {
+      if ([6, 7, 8, 9].includes(month)) return 'monsoon';
+      if ([10, 11].includes(month)) return 'post-monsoon';
+      if ([12, 1, 2].includes(month)) return 'winter';
+      return 'summer'; // 3,4,5
+    }
+
+    function themeFromWeatherCode(code, tempC) {
+      if ([95, 96, 99].includes(code)) return 'monsoon';               // thunderstorm
+      if ([51, 53, 55, 61, 63, 65, 80, 81, 82].includes(code)) return 'rain';
+      if ([45, 48].includes(code)) return 'winter';                    // fog
+      if (tempC !== undefined && tempC >= 35) return 'summer';
+      return null; // let calendar season decide
+    }
+
+    async function resolveTheme() {
+      const calendarTheme = seasonFromMonth(new Date().getMonth() + 1);
+      let liveNote = '';
+      try {
+        const res = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${LAT}&longitude=${LON}&current_weather=true`);
+        if (res.ok) {
+          const j = await res.json();
+          const cw = j.current_weather;
+          const liveTheme = themeFromWeatherCode(cw.weathercode, cw.temperature);
+          liveNote = `${cw.temperature.toFixed(0)}°C`;
+          return { key: liveTheme || calendarTheme, temp: liveNote, live: !!liveTheme };
+        }
+      } catch (e) {
+        console.warn('Live weather unavailable, using seasonal calendar:', e);
+      }
+      return { key: calendarTheme, temp: null, live: false };
+    }
+
+    function initStorm(themeKey, tempLabel, isLive) {
+      const theme = THEMES[themeKey] || THEMES.monsoon;
+      const zone = document.getElementById('storm-zone');
+      const caption = document.getElementById('storm-caption');
+      const canvas = document.getElementById('weather-canvas');
+
+      caption.textContent = tempLabel
+        ? `${theme.label} · ${tempLabel}${isLive ? '' : ' (seasonal)'}`
+        : `${theme.label} (seasonal)`;
+
+      if (reduceMotion) {
+        zone.style.background = `linear-gradient(180deg, ${theme.tint}, var(--ink))`;
+        canvas.remove();
+        return;
+      }
+
+      const ctx = canvas.getContext('2d');
+      let w, h;
+      function resize() {
+        w = canvas.width = zone.clientWidth;
+        h = canvas.height = zone.clientHeight;
+      }
+      resize();
+      window.addEventListener('resize', resize);
+
+      const windAngle = 0.35; // radians, gentle wind drift
+      const dropCount = theme.rain ? 140 : 0;
+      const ambientCount = theme.fog || theme.heat ? 40 : 0;
+
+      const drops = Array.from({ length: dropCount }, () => ({
+        x: Math.random() * w, y: Math.random() * h,
+        len: 10 + Math.random() * 14, speed: 4 + Math.random() * 4,
+      }));
+      const ambient = Array.from({ length: ambientCount }, () => ({
+        x: Math.random() * w, y: Math.random() * h,
+        r: theme.heat ? 1 + Math.random() * 2 : 20 + Math.random() * 40,
+        vy: theme.heat ? -(0.3 + Math.random() * 0.5) : 0,
+        vx: theme.heat ? (Math.random() - 0.5) * 0.4 : 0.1 + Math.random() * 0.2,
+        alpha: 0.05 + Math.random() * 0.1,
+      }));
+
+      let flash = 0, nextFlashAt = performance.now() + 3000 + Math.random() * 4000;
+
+      function frame(now) {
+        ctx.clearRect(0, 0, w, h);
+        ctx.fillStyle = theme.tint;
+        ctx.fillRect(0, 0, w, h);
+
+        if (theme.rain) {
+          ctx.strokeStyle = theme.particle;
+          ctx.globalAlpha = 0.35;
+          ctx.lineWidth = 1;
+          for (const d of drops) {
+            ctx.beginPath();
+            ctx.moveTo(d.x, d.y);
+            ctx.lineTo(d.x + Math.sin(windAngle) * d.len, d.y + Math.cos(windAngle) * d.len);
+            ctx.stroke();
+            d.x += Math.sin(windAngle) * d.speed;
+            d.y += Math.cos(windAngle) * d.speed;
+            if (d.y > h) { d.y = -10; d.x = Math.random() * w; }
+          }
+          ctx.globalAlpha = 1;
+        }
+
+        if (ambientCount) {
+          for (const p of ambient) {
+            ctx.beginPath();
+            ctx.fillStyle = theme.particle;
+            ctx.globalAlpha = p.alpha;
+            ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+            ctx.fill();
+            p.x += p.vx; p.y += p.vy;
+            if (p.y < -50) p.y = h + 50;
+            if (p.x > w + 50) p.x = -50;
+          }
+          ctx.globalAlpha = 1;
+        }
+
+        if (theme.lightning) {
+          if (now > nextFlashAt) {
+            flash = 0.8;
+            nextFlashAt = now + 4000 + Math.random() * 6000;
+          }
+          if (flash > 0) {
+            ctx.fillStyle = `rgba(220,235,255,${flash})`;
+            ctx.fillRect(0, 0, w, h);
+            flash -= 0.06;
+          }
+        }
+
+        requestAnimationFrame(frame);
+      }
+      requestAnimationFrame(frame);
+    }
+
+    resolveTheme().then(({ key, temp, live }) => initStorm(key, temp, live));
+  </script>
+
+  <script>
+    /* Lightweight, approximate visitor counter (third-party badge service).
+       Not privacy-dashboard-grade — swap for Plausible/GoatCounter/Umami
+       if you need real analytics later. See README. */
+    document.getElementById('visit-badge').addEventListener('error', function () {
+      this.replaceWith(document.createTextNode('visits: unavailable'));
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,204 @@
+{
+  "updated_at": "2026-07-07T11:44:45.737464+05:30",
+  "edition_label": "Pre-Market Edition · IST 07:45",
+  "ticker": [
+    {
+      "symbol": "NIFTY 50",
+      "value": "24,812.35",
+      "change": "▲ 0.62%",
+      "direction": "up"
+    },
+    {
+      "symbol": "SENSEX",
+      "value": "81,904.10",
+      "change": "▲ 0.58%",
+      "direction": "up"
+    },
+    {
+      "symbol": "BANK NIFTY",
+      "value": "53,220.75",
+      "change": "▼ 0.14%",
+      "direction": "down"
+    },
+    {
+      "symbol": "INDIA VIX",
+      "value": "12.84",
+      "change": "▼ 2.1%",
+      "direction": "down"
+    },
+    {
+      "symbol": "GIFT NIFTY",
+      "value": "24,860",
+      "change": "▲ 0.21%",
+      "direction": "up"
+    },
+    {
+      "symbol": "S&P 500",
+      "value": "6,214.02",
+      "change": "▲ 0.34%",
+      "direction": "up"
+    },
+    {
+      "symbol": "NASDAQ",
+      "value": "20,442.90",
+      "change": "▲ 0.51%",
+      "direction": "up"
+    },
+    {
+      "symbol": "USD/INR",
+      "value": "85.92",
+      "change": "▲ 0.08%",
+      "direction": "up"
+    },
+    {
+      "symbol": "BRENT CRUDE",
+      "value": "71.40",
+      "change": "▼ 0.9%",
+      "direction": "down"
+    }
+  ],
+  "hero": {
+    "confidence": "HIGH",
+    "confidence_note": "BSE / NSE FILINGS CONFIRMED",
+    "headline": "FIIs turn net buyers for a third straight session as Bank Nifty holds the 53,000 shelf",
+    "lede": "Global cues steady into the print, with GIFT Nifty pointing to a flat-to-firm open. DII flows continue to offset FII caution ahead of tonight's Fed commentary."
+  },
+  "pulse": {
+    "last_close": "24,812.35",
+    "change": "+152.4",
+    "direction": "up",
+    "fii_net": "+1,284",
+    "dii_net": "+642",
+    "spark": [
+      24660,
+      24680,
+      24645,
+      24710,
+      24690,
+      24760,
+      24730,
+      24790,
+      24760,
+      24812
+    ]
+  },
+  "market": {
+    "gainers": [
+      {
+        "name": "Tata Power",
+        "change": "3.42%",
+        "direction": "up"
+      },
+      {
+        "name": "HCL Tech",
+        "change": "2.87%",
+        "direction": "up"
+      },
+      {
+        "name": "Adani Green",
+        "change": "2.51%",
+        "direction": "up"
+      }
+    ],
+    "losers": [
+      {
+        "name": "Wipro",
+        "change": "1.94%",
+        "direction": "down"
+      },
+      {
+        "name": "JSW Energy",
+        "change": "1.62%",
+        "direction": "down"
+      },
+      {
+        "name": "Tech Mahindra",
+        "change": "1.18%",
+        "direction": "down"
+      }
+    ],
+    "watch": [
+      {
+        "name": "NVIDIA",
+        "change": "1.76%",
+        "direction": "up"
+      },
+      {
+        "name": "NextEra Energy",
+        "change": "0.94%",
+        "direction": "up"
+      },
+      {
+        "name": "Infosys",
+        "change": "0.42%",
+        "direction": "down"
+      }
+    ]
+  },
+  "radar": [
+    {
+      "company": "Tata Power (NSE: TATAPOWER)",
+      "impact": "Bullish",
+      "summary": "New transmission contract win flagged in exchange filing; already partially reflected in Friday's late move.",
+      "source": "BSE Filing",
+      "confidence_icon": "🟢",
+      "priced_in": "Partially"
+    },
+    {
+      "company": "Wipro (NSE: WIPRO)",
+      "impact": "Bearish",
+      "summary": "Leadership transition chatter across two portals, unconfirmed by official filing as of this edition.",
+      "source": "2 Portals",
+      "confidence_icon": "🟡",
+      "priced_in": "No"
+    }
+  ],
+  "insider": [
+    {
+      "company": "Adani Green — Promoter",
+      "signal": "Strong",
+      "type": "Buy",
+      "summary": "Open-market purchase of ₹4.2 Cr, third consecutive week of promoter buying.",
+      "source": "BSE Bulk Deal",
+      "confidence_icon": "🟢"
+    },
+    {
+      "company": "NextEra Energy — CFO",
+      "signal": "Moderate",
+      "type": "ESOP",
+      "summary": "Form 4 filing shows routine ESOP-linked disposal, not open-market conviction buying.",
+      "source": "SEC Form 4",
+      "confidence_icon": "🟢"
+    }
+  ],
+  "calendar": [
+    {
+      "name": "Northern Arc Capital",
+      "type": "India IPO",
+      "tag": "Strong",
+      "details": "Opens Thu · Price band ₹236–249 · Issue size ₹777 Cr · GMP ₹38",
+      "status": "Subscription: 2.1x"
+    },
+    {
+      "name": "RBI MPC Minutes",
+      "type": "Macro Event",
+      "tag": "Watch",
+      "details": "Release Wed · Markets pricing a hold; commentary on liquidity stance in focus.",
+      "status": "Impact: Medium"
+    }
+  ],
+  "geo": [
+    {
+      "title": "India–Australia Uranium Supply",
+      "summary": "Fresh disclosures on shipment scheduling under the bilateral civil nuclear pact; relevant to domestic energy-security names."
+    },
+    {
+      "title": "Quad Critical Minerals Initiative",
+      "summary": "Joint statement expected on rare-earth supply chain diversification ahead of the next ministerial round."
+    },
+    {
+      "title": "Cross-Border Energy Security",
+      "summary": "New LNG offtake discussions tracked across three jurisdictions, with second-order impact on shipping and refining plays."
+    }
+  ]
+}
