@@ -1,204 +1,189 @@
 {
-  "updated_at": "2026-07-07T11:44:45.737464+05:30",
+  "updated_at": "2026-07-08T17:14:53.528304+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,812.35",
-      "change": "▲ 0.62%",
-      "direction": "up"
+      "value": "23,882.05",
+      "change": "▼ 2.12%",
+      "direction": "down"
     },
     {
       "symbol": "SENSEX",
-      "value": "81,904.10",
-      "change": "▲ 0.58%",
-      "direction": "up"
+      "value": "76,503.60",
+      "change": "▼ 2.15%",
+      "direction": "down"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "53,220.75",
-      "change": "▼ 0.14%",
+      "value": "56,742.60",
+      "change": "▼ 2.51%",
       "direction": "down"
-    },
-    {
-      "symbol": "INDIA VIX",
-      "value": "12.84",
-      "change": "▼ 2.1%",
-      "direction": "down"
-    },
-    {
-      "symbol": "GIFT NIFTY",
-      "value": "24,860",
-      "change": "▲ 0.21%",
-      "direction": "up"
     },
     {
       "symbol": "S&P 500",
-      "value": "6,214.02",
-      "change": "▲ 0.34%",
-      "direction": "up"
+      "value": "7,503.85",
+      "change": "▼ 0.45%",
+      "direction": "down"
     },
     {
       "symbol": "NASDAQ",
-      "value": "20,442.90",
-      "change": "▲ 0.51%",
-      "direction": "up"
+      "value": "25,818.69",
+      "change": "▼ 1.16%",
+      "direction": "down"
     },
     {
       "symbol": "USD/INR",
-      "value": "85.92",
-      "change": "▲ 0.08%",
-      "direction": "up"
+      "value": "95.56",
+      "change": "▼ 0.05%",
+      "direction": "down"
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "71.40",
-      "change": "▼ 0.9%",
-      "direction": "down"
+      "value": "78.43",
+      "change": "▲ 5.76%",
+      "direction": "up"
     }
   ],
   "hero": {
-    "confidence": "HIGH",
-    "confidence_note": "BSE / NSE FILINGS CONFIRMED",
-    "headline": "FIIs turn net buyers for a third straight session as Bank Nifty holds the 53,000 shelf",
-    "lede": "Global cues steady into the print, with GIFT Nifty pointing to a flat-to-firm open. DII flows continue to offset FII caution ahead of tonight's Fed commentary."
+    "confidence": "MEDIUM",
+    "confidence_note": "financial news portal",
+    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
   },
   "pulse": {
-    "last_close": "24,812.35",
-    "change": "+152.4",
-    "direction": "up",
+    "last_close": "23,882.05",
+    "change": "-2.12%",
+    "direction": "down",
     "fii_net": "+1,284",
     "dii_net": "+642",
     "spark": [
-      24660,
-      24680,
-      24645,
-      24710,
-      24690,
-      24760,
-      24730,
-      24790,
-      24760,
-      24812
+      24056.0,
+      23946.2,
+      23865.8,
+      24005.8,
+      24175.7,
+      24270.8,
+      24430.3,
+      24398.7,
+      23882.1
     ]
   },
   "market": {
     "gainers": [
       {
-        "name": "Tata Power",
-        "change": "3.42%",
-        "direction": "up"
+        "name": "TCS",
+        "direction": "up",
+        "change": "3.20%"
       },
       {
-        "name": "HCL Tech",
-        "change": "2.87%",
-        "direction": "up"
+        "name": "Infosys",
+        "direction": "up",
+        "change": "2.80%"
       },
       {
-        "name": "Adani Green",
-        "change": "2.51%",
-        "direction": "up"
+        "name": "HDFC Bank",
+        "direction": "up",
+        "change": "1.90%"
       }
     ],
     "losers": [
       {
-        "name": "Wipro",
-        "change": "1.94%",
-        "direction": "down"
+        "name": "Adani Enterprises",
+        "direction": "down",
+        "change": "2.40%"
       },
       {
-        "name": "JSW Energy",
-        "change": "1.62%",
-        "direction": "down"
+        "name": "Tata Steel",
+        "direction": "down",
+        "change": "1.80%"
       },
       {
-        "name": "Tech Mahindra",
-        "change": "1.18%",
-        "direction": "down"
+        "name": "Coal India",
+        "direction": "down",
+        "change": "1.50%"
       }
     ],
     "watch": [
       {
-        "name": "NVIDIA",
-        "change": "1.76%",
-        "direction": "up"
+        "name": "Reliance Industries",
+        "direction": "up",
+        "change": "0.60%"
       },
       {
-        "name": "NextEra Energy",
-        "change": "0.94%",
-        "direction": "up"
-      },
-      {
-        "name": "Infosys",
-        "change": "0.42%",
-        "direction": "down"
+        "name": "ICICI Bank",
+        "direction": "down",
+        "change": "0.40%"
       }
     ]
   },
   "radar": [
     {
-      "company": "Tata Power (NSE: TATAPOWER)",
+      "company": "Reliance Industries (NSE: RELIANCE)",
       "impact": "Bullish",
-      "summary": "New transmission contract win flagged in exchange filing; already partially reflected in Friday's late move.",
-      "source": "BSE Filing",
-      "confidence_icon": "🟢",
+      "summary": "Reliance announces new retail expansion into Tier-2 cities, targeting 200 new stores this fiscal year.",
+      "confidence_icon": "🟡",
+      "source": "Moneycontrol",
       "priced_in": "Partially"
     },
     {
       "company": "Wipro (NSE: WIPRO)",
-      "impact": "Bearish",
-      "summary": "Leadership transition chatter across two portals, unconfirmed by official filing as of this edition.",
-      "source": "2 Portals",
-      "confidence_icon": "🟡",
-      "priced_in": "No"
+      "impact": "Neutral",
+      "summary": "Wipro reaffirms FY guidance ahead of quarterly results; no major surprises expected by analysts.",
+      "confidence_icon": "🟢",
+      "source": "BSE Filing",
+      "priced_in": "Yes"
     }
   ],
   "insider": [
     {
-      "company": "Adani Green — Promoter",
+      "company": "Wipro (NSE: WIPRO)",
       "signal": "Strong",
-      "type": "Buy",
-      "summary": "Open-market purchase of ₹4.2 Cr, third consecutive week of promoter buying.",
-      "source": "BSE Bulk Deal",
-      "confidence_icon": "🟢"
+      "summary": "Chairman Rishad Premji purchased 50,000 shares in the open market, signaling long-term conviction.",
+      "confidence_icon": "🟢",
+      "source": "NSE Insider Trading Disclosure",
+      "type": "Buy"
     },
     {
-      "company": "NextEra Energy — CFO",
-      "signal": "Moderate",
-      "type": "ESOP",
-      "summary": "Form 4 filing shows routine ESOP-linked disposal, not open-market conviction buying.",
-      "source": "SEC Form 4",
-      "confidence_icon": "🟢"
+      "company": "Tata Motors (NSE: TATAMOTORS)",
+      "signal": "Weak",
+      "summary": "Routine ESOP exercise by a senior executive; not indicative of open-market conviction buying.",
+      "confidence_icon": "🟡",
+      "source": "BSE Bulk Deal Archive",
+      "type": "ESOP"
     }
   ],
   "calendar": [
     {
-      "name": "Northern Arc Capital",
+      "name": "Example Tech Ltd IPO",
+      "tag": "High",
+      "details": "Price band ₹450-475, issue size ₹1,200 Cr. GMP trending at ₹35. Fundamentals: Strong.",
       "type": "India IPO",
-      "tag": "Strong",
-      "details": "Opens Thu · Price band ₹236–249 · Issue size ₹777 Cr · GMP ₹38",
-      "status": "Subscription: 2.1x"
+      "status": "Opens Jul 10"
     },
     {
-      "name": "RBI MPC Minutes",
+      "name": "TCS Q1 FY27 Results",
+      "tag": "Medium",
+      "details": "Consensus expects EPS in line with prior quarter; revenue growth guidance is the key watch item.",
+      "type": "India Earnings",
+      "status": "Jul 12"
+    },
+    {
+      "name": "US Fed FOMC Meeting Minutes",
+      "tag": "High",
+      "details": "Markets watching for rate-path commentary following recent inflation data.",
       "type": "Macro Event",
-      "tag": "Watch",
-      "details": "Release Wed · Markets pricing a hold; commentary on liquidity stance in focus.",
-      "status": "Impact: Medium"
+      "status": "Jul 14"
     }
   ],
   "geo": [
     {
-      "title": "India–Australia Uranium Supply",
-      "summary": "Fresh disclosures on shipment scheduling under the bilateral civil nuclear pact; relevant to domestic energy-security names."
+      "title": "Middle East Tensions",
+      "summary": "Ongoing regional tensions continue to affect crude oil supply routes, with knock-on effects for aviation and energy-import-heavy economies like India."
     },
     {
-      "title": "Quad Critical Minerals Initiative",
-      "summary": "Joint statement expected on rare-earth supply chain diversification ahead of the next ministerial round."
-    },
-    {
-      "title": "Cross-Border Energy Security",
-      "summary": "New LNG offtake discussions tracked across three jurisdictions, with second-order impact on shipping and refining plays."
+      "title": "US-China Trade Relations",
+      "summary": "Renewed tariff discussions add uncertainty to global semiconductor and manufacturing supply chains."
     }
   ]
 }
