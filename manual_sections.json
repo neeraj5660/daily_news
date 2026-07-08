@@ -1,0 +1,91 @@
+{
+  "market": {
+    "gainers": [
+      { "name": "TCS", "direction": "up", "change": "3.20%" },
+      { "name": "Infosys", "direction": "up", "change": "2.80%" },
+      { "name": "HDFC Bank", "direction": "up", "change": "1.90%" }
+    ],
+    "losers": [
+      { "name": "Adani Enterprises", "direction": "down", "change": "2.40%" },
+      { "name": "Tata Steel", "direction": "down", "change": "1.80%" },
+      { "name": "Coal India", "direction": "down", "change": "1.50%" }
+    ],
+    "watch": [
+      { "name": "Reliance Industries", "direction": "up", "change": "0.60%" },
+      { "name": "ICICI Bank", "direction": "down", "change": "0.40%" }
+    ]
+  },
+
+  "radar": [
+    {
+      "company": "Reliance Industries (NSE: RELIANCE)",
+      "impact": "Bullish",
+      "summary": "Reliance announces new retail expansion into Tier-2 cities, targeting 200 new stores this fiscal year.",
+      "confidence_icon": "🟡",
+      "source": "Moneycontrol",
+      "priced_in": "Partially"
+    },
+    {
+      "company": "Wipro (NSE: WIPRO)",
+      "impact": "Neutral",
+      "summary": "Wipro reaffirms FY guidance ahead of quarterly results; no major surprises expected by analysts.",
+      "confidence_icon": "🟢",
+      "source": "BSE Filing",
+      "priced_in": "Yes"
+    }
+  ],
+
+  "insider": [
+    {
+      "company": "Wipro (NSE: WIPRO)",
+      "signal": "Strong",
+      "summary": "Chairman Rishad Premji purchased 50,000 shares in the open market, signaling long-term conviction.",
+      "confidence_icon": "🟢",
+      "source": "NSE Insider Trading Disclosure",
+      "type": "Buy"
+    },
+    {
+      "company": "Tata Motors (NSE: TATAMOTORS)",
+      "signal": "Weak",
+      "summary": "Routine ESOP exercise by a senior executive; not indicative of open-market conviction buying.",
+      "confidence_icon": "🟡",
+      "source": "BSE Bulk Deal Archive",
+      "type": "ESOP"
+    }
+  ],
+
+  "calendar": [
+    {
+      "name": "Example Tech Ltd IPO",
+      "tag": "High",
+      "details": "Price band ₹450-475, issue size ₹1,200 Cr. GMP trending at ₹35. Fundamentals: Strong.",
+      "type": "India IPO",
+      "status": "Opens Jul 10"
+    },
+    {
+      "name": "TCS Q1 FY27 Results",
+      "tag": "Medium",
+      "details": "Consensus expects EPS in line with prior quarter; revenue growth guidance is the key watch item.",
+      "type": "India Earnings",
+      "status": "Jul 12"
+    },
+    {
+      "name": "US Fed FOMC Meeting Minutes",
+      "tag": "High",
+      "details": "Markets watching for rate-path commentary following recent inflation data.",
+      "type": "Macro Event",
+      "status": "Jul 14"
+    }
+  ],
+
+  "geo": [
+    {
+      "title": "Middle East Tensions",
+      "summary": "Ongoing regional tensions continue to affect crude oil supply routes, with knock-on effects for aviation and energy-import-heavy economies like India."
+    },
+    {
+      "title": "US-China Trade Relations",
+      "summary": "Renewed tariff discussions add uncertainty to global semiconductor and manufacturing supply chains."
+    }
+  ]
+}
