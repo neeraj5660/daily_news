@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-07-10T09:43:48.209716+05:30",
+  "updated_at": "2026-07-10T12:01:10.331170+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,200.60",
-      "change": "▲ 0.99%",
+      "value": "24,178.20",
+      "change": "▲ 0.90%",
       "direction": "up"
     },
     {
       "symbol": "SENSEX",
-      "value": "77,453.49",
-      "change": "▲ 0.93%",
+      "value": "77,436.67",
+      "change": "▲ 0.91%",
       "direction": "up"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "57,899.50",
-      "change": "▲ 1.13%",
+      "value": "57,878.50",
+      "change": "▲ 1.09%",
       "direction": "up"
     },
     {
@@ -34,26 +34,26 @@
     },
     {
       "symbol": "USD/INR",
-      "value": "95.30",
-      "change": "▼ 0.59%",
+      "value": "95.32",
+      "change": "▼ 0.57%",
       "direction": "down"
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "76.63",
-      "change": "▲ 0.43%",
-      "direction": "up"
+      "value": "76.15",
+      "change": "▼ 0.20%",
+      "direction": "down"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Why is market rising today? Sensex jumps over 700 points, Nifty above 24,100. 5 key factors behind today's D-St rally",
-    "lede": "Indian stock markets experienced significant gains on Friday, with Sensex and Nifty rising sharply.  Strong first-quarter earnings reported by Tata Consultancy Services boosted investor confidence.  Positive global marke"
+    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
   },
   "pulse": {
-    "last_close": "24,200.60",
-    "change": "+0.99%",
+    "last_close": "24,178.20",
+    "change": "+0.90%",
     "direction": "up",
     "fii_net": "+1,284",
     "dii_net": "+642",
@@ -67,7 +67,7 @@
       24398.7,
       23882.1,
       23962.8,
-      24200.6
+      24178.2
     ]
   },
   "market": {
