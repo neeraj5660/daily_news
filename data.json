@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T15:43:23.209415+05:30",
+  "updated_at": "2026-07-10T18:09:13.142257+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
@@ -10,7 +10,7 @@
     },
     {
       "symbol": "SENSEX",
-      "value": "77,566.91",
+      "value": "77,569.39",
       "change": "▲ 1.08%",
       "direction": "up"
     },
@@ -40,16 +40,16 @@
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "76.15",
-      "change": "▼ 0.20%",
-      "direction": "down"
+      "value": "76.49",
+      "change": "▲ 0.25%",
+      "direction": "up"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
+    "headline": "Nykaa among 6 midcap stocks that hit 52-week highs, rally up to 30% in a month",
+    "lede": "Nykaa, Godrej Industries and four other BSE MidCap stocks hit fresh 52-week highs, rallying up to 30% over the past month amid strong market momentum."
   },
   "pulse": {
     "last_close": "24,206.90",
