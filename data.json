@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T16:36:42.852784+05:30",
+  "updated_at": "2026-07-15T18:17:56.556211+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
@@ -35,13 +35,13 @@
     {
       "symbol": "USD/INR",
       "value": "96.25",
-      "change": "▼ 0.05%",
+      "change": "▼ 0.06%",
       "direction": "down"
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "85.53",
-      "change": "▲ 0.94%",
+      "value": "85.19",
+      "change": "▲ 0.54%",
       "direction": "up"
     }
   ],
