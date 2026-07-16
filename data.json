@@ -1,24 +1,24 @@
 {
-  "updated_at": "2026-07-16T10:59:40.247218+05:30",
+  "updated_at": "2026-07-16T13:06:15.202724+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,164.55",
-      "change": "▲ 0.36%",
+      "value": "24,125.20",
+      "change": "▲ 0.19%",
       "direction": "up"
     },
     {
       "symbol": "SENSEX",
-      "value": "77,354.22",
-      "change": "▲ 0.22%",
+      "value": "77,420.51",
+      "change": "▲ 0.30%",
       "direction": "up"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "57,770.10",
-      "change": "▲ 0.02%",
-      "direction": "up"
+      "value": "57,592.80",
+      "change": "▼ 0.29%",
+      "direction": "down"
     },
     {
       "symbol": "S&P 500",
@@ -34,26 +34,26 @@
     },
     {
       "symbol": "USD/INR",
-      "value": "96.31",
-      "change": "▼ 0.12%",
+      "value": "96.30",
+      "change": "▼ 0.13%",
       "direction": "down"
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "84.57",
-      "change": "▼ 0.45%",
+      "value": "84.62",
+      "change": "▼ 0.39%",
       "direction": "down"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
+    "headline": "FIIs will return to India, but these 5 reasons will keep them at bay for some time",
+    "lede": "FII selling has remained a key headwind for Indian equities since 2024, with foreign investors pulling out $32 billion amid the Middle East conflict. While recent inflows have provided some relief, Elara Securities belie"
   },
   "pulse": {
-    "last_close": "24,164.55",
-    "change": "+0.36%",
+    "last_close": "24,125.20",
+    "change": "+0.19%",
     "direction": "up",
     "fii_net": "+1,284",
     "dii_net": "+642",
@@ -67,7 +67,7 @@
       24211.0,
       24052.1,
       24078.5,
-      24164.6
+      24125.2
     ]
   },
   "market": {
