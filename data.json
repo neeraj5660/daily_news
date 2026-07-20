@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-07-20T14:16:53.297492+05:30",
+  "updated_at": "2026-07-20T17:03:15.571916+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,242.40",
-      "change": "▼ 0.38%",
+      "value": "24,238.50",
+      "change": "▼ 0.39%",
       "direction": "down"
     },
     {
       "symbol": "SENSEX",
-      "value": "77,792.53",
-      "change": "▼ 0.46%",
+      "value": "77,708.52",
+      "change": "▼ 0.57%",
       "direction": "down"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "58,023.65",
-      "change": "▼ 0.85%",
+      "value": "57,945.00",
+      "change": "▼ 0.98%",
       "direction": "down"
     },
     {
@@ -34,26 +34,26 @@
     },
     {
       "symbol": "USD/INR",
-      "value": "96.37",
-      "change": "▼ 0.29%",
+      "value": "96.44",
+      "change": "▼ 0.21%",
       "direction": "down"
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "88.14",
-      "change": "▲ 0.05%",
+      "value": "88.26",
+      "change": "▲ 0.18%",
       "direction": "up"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
+    "headline": "Absolute Projects, Jindal Supreme secure Sebi's nod to float IPOs",
+    "lede": "Funds will be used to modernise Manufacturing Facility I, procure machinery for Manufacturing Facility II, and secure equipment for Power EPC projects."
   },
   "pulse": {
-    "last_close": "24,242.40",
-    "change": "-0.38%",
+    "last_close": "24,238.50",
+    "change": "-0.39%",
     "direction": "down",
     "fii_net": "+1,284",
     "dii_net": "+642",
@@ -67,7 +67,7 @@
       24078.5,
       24072.8,
       24334.3,
-      24242.4
+      24238.5
     ]
   },
   "market": {
