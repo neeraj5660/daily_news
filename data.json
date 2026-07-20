@@ -1,47 +1,47 @@
 {
-  "updated_at": "2026-07-17T18:09:23.767889+05:30",
+  "updated_at": "2026-07-20T11:27:35.494349+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,334.30",
-      "change": "▲ 1.09%",
-      "direction": "up"
+      "value": "24,218.35",
+      "change": "▼ 0.48%",
+      "direction": "down"
     },
     {
       "symbol": "SENSEX",
-      "value": "78,151.45",
-      "change": "▲ 1.25%",
-      "direction": "up"
+      "value": "77,664.90",
+      "change": "▼ 0.62%",
+      "direction": "down"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "58,521.40",
-      "change": "▲ 1.63%",
-      "direction": "up"
+      "value": "57,705.50",
+      "change": "▼ 1.39%",
+      "direction": "down"
     },
     {
       "symbol": "S&P 500",
-      "value": "7,533.77",
-      "change": "▼ 0.51%",
+      "value": "7,457.69",
+      "change": "▼ 1.01%",
       "direction": "down"
     },
     {
       "symbol": "NASDAQ",
-      "value": "25,881.95",
-      "change": "▼ 1.47%",
+      "value": "25,520.24",
+      "change": "▼ 1.40%",
       "direction": "down"
     },
     {
       "symbol": "USD/INR",
-      "value": "96.27",
-      "change": "▼ 0.24%",
+      "value": "96.47",
+      "change": "▼ 0.18%",
       "direction": "down"
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "86.05",
-      "change": "▲ 2.16%",
+      "value": "90.52",
+      "change": "▲ 2.75%",
       "direction": "up"
     }
   ],
@@ -52,13 +52,12 @@
     "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
   },
   "pulse": {
-    "last_close": "24,334.30",
-    "change": "+1.09%",
-    "direction": "up",
+    "last_close": "24,218.35",
+    "change": "-0.48%",
+    "direction": "down",
     "fii_net": "+1,284",
     "dii_net": "+642",
     "spark": [
-      24430.3,
       24398.7,
       23882.1,
       23962.8,
@@ -67,7 +66,8 @@
       24052.1,
       24078.5,
       24072.8,
-      24334.3
+      24334.3,
+      24218.3
     ]
   },
   "market": {
