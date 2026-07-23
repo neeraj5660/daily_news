@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-07-23T13:36:57.199784+05:30",
+  "updated_at": "2026-07-23T16:07:28.835756+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "23,831.05",
-      "change": "▼ 0.69%",
+      "value": "23,869.60",
+      "change": "▼ 0.53%",
       "direction": "down"
     },
     {
       "symbol": "SENSEX",
-      "value": "76,252.03",
-      "change": "▼ 0.66%",
+      "value": "76,391.39",
+      "change": "▼ 0.47%",
       "direction": "down"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "56,430.00",
-      "change": "▼ 1.22%",
+      "value": "56,592.00",
+      "change": "▼ 0.94%",
       "direction": "down"
     },
     {
@@ -34,26 +34,26 @@
     },
     {
       "symbol": "USD/INR",
-      "value": "96.53",
-      "change": "▲ 0.20%",
+      "value": "96.57",
+      "change": "▲ 0.24%",
       "direction": "up"
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "86.40",
-      "change": "▼ 8.15%",
+      "value": "92.96",
+      "change": "▼ 1.18%",
       "direction": "down"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Bitcoin trades near $65,700 as AI-led inflation concerns cap gains despite strong ETF demand",
-    "lede": "Bitcoin traded near $65,700 on Thursday as inflation concerns capped gains. Strong ETF demand persisted, adding $203 million on Tuesday. Major altcoins like BNB and XRP saw gains up to two percent. Geopolitical risks int"
+    "headline": "Rupee ends nearly flat as central bank intervention blunts oil strain",
+    "lede": "On Thursday, the Indian rupee hovered close to a two-month low, influenced by potential intervention from the central bank to counteract rising oil prices. Brent crude oil approached the $100 per barrel mark following re"
   },
   "pulse": {
-    "last_close": "23,831.05",
-    "change": "-0.69%",
+    "last_close": "23,869.60",
+    "change": "-0.53%",
     "direction": "down",
     "fii_net": "+1,284",
     "dii_net": "+642",
@@ -67,7 +67,7 @@
       24238.5,
       24187.7,
       23996.2,
-      23831.1
+      23869.6
     ]
   },
   "market": {
