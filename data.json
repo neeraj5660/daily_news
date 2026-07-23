@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-07-23T11:13:00.928534+05:30",
+  "updated_at": "2026-07-23T13:36:57.199784+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "23,981.25",
-      "change": "▼ 0.06%",
+      "value": "23,831.05",
+      "change": "▼ 0.69%",
       "direction": "down"
     },
     {
       "symbol": "SENSEX",
-      "value": "76,663.57",
-      "change": "▼ 0.12%",
+      "value": "76,252.03",
+      "change": "▼ 0.66%",
       "direction": "down"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "56,820.90",
-      "change": "▼ 0.54%",
+      "value": "56,430.00",
+      "change": "▼ 1.22%",
       "direction": "down"
     },
     {
@@ -40,20 +40,20 @@
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "95.55",
-      "change": "▲ 1.57%",
-      "direction": "up"
+      "value": "86.40",
+      "change": "▼ 8.15%",
+      "direction": "down"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
+    "headline": "Bitcoin trades near $65,700 as AI-led inflation concerns cap gains despite strong ETF demand",
+    "lede": "Bitcoin traded near $65,700 on Thursday as inflation concerns capped gains. Strong ETF demand persisted, adding $203 million on Tuesday. Major altcoins like BNB and XRP saw gains up to two percent. Geopolitical risks int"
   },
   "pulse": {
-    "last_close": "23,981.25",
-    "change": "-0.06%",
+    "last_close": "23,831.05",
+    "change": "-0.69%",
     "direction": "down",
     "fii_net": "+1,284",
     "dii_net": "+642",
@@ -67,7 +67,7 @@
       24238.5,
       24187.7,
       23996.2,
-      23981.2
+      23831.1
     ]
   },
   "market": {
