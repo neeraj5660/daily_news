@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T16:07:28.835756+05:30",
+  "updated_at": "2026-07-23T17:47:51.445716+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
@@ -40,16 +40,16 @@
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "92.96",
-      "change": "▼ 1.18%",
+      "value": "93.00",
+      "change": "▼ 1.14%",
       "direction": "down"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Rupee ends nearly flat as central bank intervention blunts oil strain",
-    "lede": "On Thursday, the Indian rupee hovered close to a two-month low, influenced by potential intervention from the central bank to counteract rising oil prices. Brent crude oil approached the $100 per barrel mark following re"
+    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
   },
   "pulse": {
     "last_close": "23,869.60",
