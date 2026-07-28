@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28T16:25:35.887444+05:30",
+  "updated_at": "2026-07-28T17:59:27.537062+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
@@ -23,13 +23,13 @@
     {
       "symbol": "S&P 500",
       "value": "7,413.18",
-      "change": "▲ 0.02%",
+      "change": "▲ 0.07%",
       "direction": "up"
     },
     {
       "symbol": "NASDAQ",
       "value": "24,932.08",
-      "change": "▼ 0.18%",
+      "change": "▼ 0.82%",
       "direction": "down"
     },
     {
@@ -40,8 +40,8 @@
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "86.40",
-      "change": "▼ 2.22%",
+      "value": "87.12",
+      "change": "▼ 1.40%",
       "direction": "down"
     }
   ],
@@ -65,7 +65,6 @@
       24187.7,
       23996.2,
       23869.6,
-      23767.4,
       23995.9,
       23985.3
     ]
