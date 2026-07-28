@@ -1,59 +1,59 @@
 {
-  "updated_at": "2026-07-28T13:40:27.647591+05:30",
+  "updated_at": "2026-07-28T16:25:35.887444+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "23,982.05",
-      "change": "▼ 0.06%",
-      "direction": "down"
-    },
-    {
-      "symbol": "SENSEX",
-      "value": "76,802.04",
+      "value": "23,985.35",
       "change": "▼ 0.04%",
       "direction": "down"
     },
     {
+      "symbol": "SENSEX",
+      "value": "76,765.92",
+      "change": "▼ 0.09%",
+      "direction": "down"
+    },
+    {
       "symbol": "BANK NIFTY",
-      "value": "56,800.25",
-      "change": "▼ 0.50%",
+      "value": "56,755.60",
+      "change": "▼ 0.58%",
       "direction": "down"
     },
     {
       "symbol": "S&P 500",
       "value": "7,413.18",
-      "change": "▲ 0.07%",
+      "change": "▲ 0.02%",
       "direction": "up"
     },
     {
       "symbol": "NASDAQ",
       "value": "24,932.08",
-      "change": "▼ 0.82%",
+      "change": "▼ 0.18%",
       "direction": "down"
     },
     {
       "symbol": "USD/INR",
-      "value": "95.80",
-      "change": "▼ 0.79%",
+      "value": "95.84",
+      "change": "▼ 0.75%",
       "direction": "down"
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "86.01",
-      "change": "▼ 2.66%",
+      "value": "86.40",
+      "change": "▼ 2.22%",
       "direction": "down"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Varun Beverages shares fall 5% as Q2 margins shrink after Twizza acquisition in South Africa; net profit rises 15%",
-    "lede": "Varun Beverages shares fell 5% after the Pepsi bottler reported a 76-basis-point contraction in Q2 CY2026 EBITDA margin to 27.7%, weighed down by the consolidation of South Africa's Twizza business. Despite the margin pr"
+    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
   },
   "pulse": {
-    "last_close": "23,982.05",
-    "change": "-0.06%",
+    "last_close": "23,985.35",
+    "change": "-0.04%",
     "direction": "down",
     "fii_net": "+1,284",
     "dii_net": "+642",
@@ -65,8 +65,9 @@
       24187.7,
       23996.2,
       23869.6,
+      23767.4,
       23995.9,
-      23982.1
+      23985.3
     ]
   },
   "market": {
