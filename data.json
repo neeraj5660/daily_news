@@ -1,60 +1,60 @@
 {
-  "updated_at": "2026-07-28T11:06:10.799866+05:30",
+  "updated_at": "2026-07-28T13:40:27.647591+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,023.00",
-      "change": "▲ 0.11%",
-      "direction": "up"
+      "value": "23,982.05",
+      "change": "▼ 0.06%",
+      "direction": "down"
     },
     {
       "symbol": "SENSEX",
-      "value": "76,923.88",
-      "change": "▲ 0.11%",
-      "direction": "up"
+      "value": "76,802.04",
+      "change": "▼ 0.04%",
+      "direction": "down"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "56,981.90",
-      "change": "▼ 0.18%",
+      "value": "56,800.25",
+      "change": "▼ 0.50%",
       "direction": "down"
     },
     {
       "symbol": "S&P 500",
       "value": "7,413.18",
-      "change": "▲ 0.02%",
+      "change": "▲ 0.07%",
       "direction": "up"
     },
     {
       "symbol": "NASDAQ",
       "value": "24,932.08",
-      "change": "▼ 0.18%",
+      "change": "▼ 0.82%",
       "direction": "down"
     },
     {
       "symbol": "USD/INR",
-      "value": "95.73",
-      "change": "▼ 0.87%",
+      "value": "95.80",
+      "change": "▼ 0.79%",
       "direction": "down"
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "87.08",
-      "change": "▼ 1.45%",
+      "value": "86.01",
+      "change": "▼ 2.66%",
       "direction": "down"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
+    "headline": "Varun Beverages shares fall 5% as Q2 margins shrink after Twizza acquisition in South Africa; net profit rises 15%",
+    "lede": "Varun Beverages shares fell 5% after the Pepsi bottler reported a 76-basis-point contraction in Q2 CY2026 EBITDA margin to 27.7%, weighed down by the consolidation of South Africa's Twizza business. Despite the margin pr"
   },
   "pulse": {
-    "last_close": "24,023.00",
-    "change": "+0.11%",
-    "direction": "up",
+    "last_close": "23,982.05",
+    "change": "-0.06%",
+    "direction": "down",
     "fii_net": "+1,284",
     "dii_net": "+642",
     "spark": [
@@ -66,7 +66,7 @@
       23996.2,
       23869.6,
       23995.9,
-      24023.0
+      23982.1
     ]
   },
   "market": {
