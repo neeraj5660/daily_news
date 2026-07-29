@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-07-29T16:29:30.447017+05:30",
+  "updated_at": "2026-07-29T18:29:09.098641+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
       "value": "24,250.20",
-      "change": "▲ 1.10%",
+      "change": "▲ 1.06%",
       "direction": "up"
     },
     {
       "symbol": "SENSEX",
       "value": "77,654.60",
-      "change": "▲ 1.16%",
+      "change": "▲ 1.07%",
       "direction": "up"
     },
     {
       "symbol": "BANK NIFTY",
       "value": "57,205.90",
-      "change": "▲ 0.79%",
-      "direction": "up"
-    },
-    {
-      "symbol": "S&P 500",
-      "value": "7,428.78",
       "change": "▲ 0.21%",
       "direction": "up"
     },
     {
+      "symbol": "S&P 500",
+      "value": "nan",
+      "change": "▼ nan%",
+      "direction": "down"
+    },
+    {
       "symbol": "NASDAQ",
-      "value": "24,876.91",
-      "change": "▼ 0.22%",
+      "value": "nan",
+      "change": "▼ nan%",
       "direction": "down"
     },
     {
@@ -40,20 +40,20 @@
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "88.33",
-      "change": "▲ 5.04%",
+      "value": "89.39",
+      "change": "▲ 6.30%",
       "direction": "up"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
+    "headline": "'Biggest nightmare': Nithin Kamath warns MTF boom could worsen selloff in small and midcap stocks",
+    "lede": "Zerodha co-founder Nithin Kamath warned that rapid growth in margin trading funding could amplify market downturns, especially in small- and mid-cap stocks. He cautioned that forced selling, liquidity constraints and ris"
   },
   "pulse": {
     "last_close": "24,250.20",
-    "change": "+1.10%",
+    "change": "+1.06%",
     "direction": "up",
     "fii_net": "+1,284",
     "dii_net": "+642",
@@ -64,9 +64,7 @@
       24187.7,
       23996.2,
       23869.6,
-      23767.4,
       23995.9,
-      23985.3,
       24250.2
     ]
   },
