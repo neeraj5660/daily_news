@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-07-30T13:23:56.643212+05:30",
+  "updated_at": "2026-07-30T15:39:19.837230+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,276.60",
-      "change": "▲ 0.11%",
+      "value": "24,317.15",
+      "change": "▲ 0.28%",
       "direction": "up"
     },
     {
       "symbol": "SENSEX",
-      "value": "77,774.05",
-      "change": "▲ 0.15%",
+      "value": "77,915.31",
+      "change": "▲ 0.34%",
       "direction": "up"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "57,041.75",
-      "change": "▼ 0.29%",
+      "value": "57,147.50",
+      "change": "▼ 0.10%",
       "direction": "down"
     },
     {
@@ -34,26 +34,26 @@
     },
     {
       "symbol": "USD/INR",
-      "value": "95.74",
-      "change": "▲ 0.15%",
+      "value": "95.67",
+      "change": "▲ 0.07%",
       "direction": "up"
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "92.72",
-      "change": "▲ 2.18%",
+      "value": "90.97",
+      "change": "▲ 0.25%",
       "direction": "up"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
+    "headline": "Vedanta Q1 Results: Profit jumps 72% YoY to Rs 5,473 crore; EBITDA soars 98% to record high",
+    "lede": "Vedanta's net profit surged seventy-two percent year-on-year for the first quarter. Revenue from operations also increased fifty-four percent during the same period. The company's EBITDA soared ninety-eight percent to it"
   },
   "pulse": {
-    "last_close": "24,276.60",
-    "change": "+0.11%",
+    "last_close": "24,317.15",
+    "change": "+0.28%",
     "direction": "up",
     "fii_net": "+1,284",
     "dii_net": "+642",
@@ -67,7 +67,7 @@
       23995.9,
       23985.3,
       24250.2,
-      24276.6
+      24317.2
     ]
   },
   "market": {
