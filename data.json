@@ -1,47 +1,47 @@
 {
-  "updated_at": "2026-07-30T17:39:37.190003+05:30",
+  "updated_at": "2026-07-31T11:24:10.480708+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,317.15",
-      "change": "▲ 0.28%",
+      "value": "24,365.55",
+      "change": "▲ 0.20%",
       "direction": "up"
     },
     {
       "symbol": "SENSEX",
-      "value": "77,928.15",
-      "change": "▲ 0.35%",
+      "value": "77,959.54",
+      "change": "▲ 0.04%",
       "direction": "up"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "57,147.50",
-      "change": "▼ 0.10%",
-      "direction": "down"
-    },
-    {
-      "symbol": "S&P 500",
-      "value": "7,316.15",
-      "change": "▼ 1.52%",
-      "direction": "down"
-    },
-    {
-      "symbol": "NASDAQ",
-      "value": "24,442.94",
-      "change": "▼ 1.74%",
-      "direction": "down"
-    },
-    {
-      "symbol": "USD/INR",
-      "value": "95.68",
-      "change": "▲ 0.09%",
+      "value": "57,194.65",
+      "change": "▲ 0.08%",
       "direction": "up"
     },
     {
+      "symbol": "S&P 500",
+      "value": "7,437.63",
+      "change": "▲ 1.66%",
+      "direction": "up"
+    },
+    {
+      "symbol": "NASDAQ",
+      "value": "25,122.18",
+      "change": "▲ 2.78%",
+      "direction": "up"
+    },
+    {
+      "symbol": "USD/INR",
+      "value": "95.39",
+      "change": "▼ 0.35%",
+      "direction": "down"
+    },
+    {
       "symbol": "BRENT CRUDE",
-      "value": "89.74",
-      "change": "▼ 1.10%",
+      "value": "87.00",
+      "change": "▼ 2.28%",
       "direction": "down"
     }
   ],
@@ -52,13 +52,12 @@
     "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
   },
   "pulse": {
-    "last_close": "24,317.15",
-    "change": "+0.28%",
+    "last_close": "24,365.55",
+    "change": "+0.20%",
     "direction": "up",
     "fii_net": "+1,284",
     "dii_net": "+642",
     "spark": [
-      24334.3,
       24238.5,
       24187.7,
       23996.2,
@@ -67,7 +66,8 @@
       23995.9,
       23985.3,
       24250.2,
-      24317.2
+      24317.2,
+      24365.6
     ]
   },
   "market": {
