@@ -138,6 +138,76 @@ def build_feed():
     DATA_FILE.write_text(json.dumps(data, indent=2, ensure_ascii=False))
     print(f"Wrote {DATA_FILE} at {data['updated_at']}")
 
+    # --- archive snapshot + search/index generation ---
+    ARCHIVE_DIR = Path(__file__).parent / "archive"
+    ARCHIVE_DIR.mkdir(exist_ok=True)
+
+    ts = datetime.now(IST).strftime('%Y%m%d_%H%M%S')
+    snapshot = ARCHIVE_DIR / f"data_{ts}.json"
+    snapshot.write_text(json.dumps(data, indent=2, ensure_ascii=False))
+    print(f"Wrote snapshot {snapshot}")
+
+    # regenerate archive_index.json
+    archive_index = []
+    for p in sorted(ARCHIVE_DIR.glob('data_*.json'), reverse=True):
+        try:
+            j = json.loads(p.read_text())
+            archive_index.append({
+                'file': f"archive/{p.name}",
+                'updated_at': j.get('updated_at', ''),
+                'title': (j.get('hero') or {}).get('headline', '')
+            })
+        except Exception:
+            continue
+    (Path(__file__).parent / 'archive_index.json').write_text(json.dumps(archive_index, indent=2, ensure_ascii=False))
+    print(f"Wrote archive_index.json ({len(archive_index)} items)")
+
+    # build a simple search index from snapshots
+    search_index = []
+    def collect_from(j, src, meta=None):
+        meta = meta or {}
+        if isinstance(j, dict):
+            title = j.get('headline') or j.get('name') or j.get('company') or j.get('title') or ''
+            snippet = ''
+            if 'lede' in j:
+                snippet = j.get('lede','')
+            elif 'summary' in j:
+                snippet = j.get('summary','')
+            elif 'details' in j:
+                snippet = j.get('details','')
+            if title or snippet:
+                search_index.append({
+                    'title': title,
+                    'snippet': snippet,
+                    'date': j.get('updated_at', data.get('updated_at')),
+                    'source': src,
+                    **meta
+                })
+
+    # include latest (current) data
+    collect_from(data.get('hero', {}), 'hero', {'path': 'data.json'})
+    for r in data.get('radar', []):
+        collect_from(r, 'radar', {'path': 'data.json'})
+    for it in data.get('insider', []):
+        collect_from(it, 'insider', {'path': 'data.json'})
+    for cal in data.get('calendar', []):
+        collect_from(cal, 'calendar', {'path': 'data.json'})
+    for g in data.get('geo', []):
+        collect_from(g, 'geo', {'path': 'data.json'})
+
+    # also include entries from archives (last 30 snapshots)
+    for p in sorted(ARCHIVE_DIR.glob('data_*.json'), reverse=True)[:30]:
+        try:
+            j = json.loads(p.read_text())
+            collect_from((j.get('hero') or {}), 'hero', {'path': f'archive/{p.name}'})
+            for r in j.get('radar', []):
+                collect_from(r, 'radar', {'path': f'archive/{p.name}'})
+        except Exception:
+            continue
+
+    (Path(__file__).parent / 'search_index.json').write_text(json.dumps(search_index, indent=2, ensure_ascii=False))
+    print(f"Wrote search_index.json ({len(search_index)} items)")
+
 
 if __name__ == "__main__":
     build_feed()
