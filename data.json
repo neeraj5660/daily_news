@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31T18:40:40.506519+05:30",
+  "updated_at": "2026-08-01T15:29:55.746756+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
@@ -22,34 +22,34 @@
     },
     {
       "symbol": "S&P 500",
-      "value": "7,437.63",
-      "change": "▲ 1.66%",
+      "value": "7,489.72",
+      "change": "▲ 0.70%",
       "direction": "up"
     },
     {
       "symbol": "NASDAQ",
-      "value": "25,122.18",
-      "change": "▲ 2.78%",
+      "value": "25,373.85",
+      "change": "▲ 1.00%",
       "direction": "up"
     },
     {
       "symbol": "USD/INR",
-      "value": "95.37",
-      "change": "▼ 0.37%",
+      "value": "95.39",
+      "change": "▼ 0.31%",
       "direction": "down"
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "90.58",
-      "change": "▲ 1.74%",
+      "value": "90.12",
+      "change": "▲ 1.22%",
       "direction": "up"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
+    "headline": "Dhaval Packaging's Rs. 36.36 crore IPO to open on July 30",
+    "lede": "Dhaval Packaging Limited will launch its initial public offering on July 30. The company plans to raise Rs. 36.36 crore through a fresh equity share issue. Proceeds will fund capacity expansion at its Sanand manufacturin"
   },
   "pulse": {
     "last_close": "24,383.60",
