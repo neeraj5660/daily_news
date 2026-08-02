@@ -1,0 +1,6 @@
+﻿# Ignore local artifacts
+read.md
+*.log
+archive/
+search_index.json
+archive_index.json
