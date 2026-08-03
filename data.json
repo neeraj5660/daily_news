@@ -1,64 +1,63 @@
 {
-  "updated_at": "2026-07-31T18:40:40.506519+05:30",
+  "updated_at": "2026-08-03T11:38:10.172784+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,383.60",
-      "change": "▲ 0.27%",
+      "value": "24,587.70",
+      "change": "▲ 0.84%",
       "direction": "up"
     },
     {
       "symbol": "SENSEX",
-      "value": "78,094.64",
-      "change": "▲ 0.21%",
+      "value": "78,753.41",
+      "change": "▲ 0.84%",
       "direction": "up"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "57,264.85",
-      "change": "▲ 0.21%",
+      "value": "57,811.20",
+      "change": "▲ 0.95%",
       "direction": "up"
     },
     {
       "symbol": "S&P 500",
-      "value": "7,437.63",
-      "change": "▲ 1.66%",
+      "value": "7,489.72",
+      "change": "▲ 0.70%",
       "direction": "up"
     },
     {
       "symbol": "NASDAQ",
-      "value": "25,122.18",
-      "change": "▲ 2.78%",
+      "value": "25,373.85",
+      "change": "▲ 1.00%",
       "direction": "up"
     },
     {
       "symbol": "USD/INR",
-      "value": "95.37",
-      "change": "▼ 0.37%",
+      "value": "95.22",
+      "change": "▼ 0.49%",
       "direction": "down"
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "90.58",
-      "change": "▲ 1.74%",
+      "value": "90.12",
+      "change": "▲ 1.22%",
       "direction": "up"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
+    "headline": "Global Market: Japan stocks slide as stronger Yen hits exporters; Nikkei drops Over 2%",
+    "lede": "Japanese stocks tumbled as a sharp rally in the yen weighed on export-oriented companies, with the Nikkei falling over 2%. Auto and chip stocks led the declines, although SoftBank, Lasertec and Kioxia outperformed. Inves"
   },
   "pulse": {
-    "last_close": "24,383.60",
-    "change": "+0.27%",
+    "last_close": "24,587.70",
+    "change": "+0.84%",
     "direction": "up",
     "fii_net": "+1,284",
     "dii_net": "+642",
     "spark": [
-      24238.5,
       24187.7,
       23996.2,
       23869.6,
@@ -67,7 +66,8 @@
       23985.3,
       24250.2,
       24317.2,
-      24383.6
+      24383.6,
+      24587.7
     ]
   },
   "market": {
