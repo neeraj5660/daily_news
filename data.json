@@ -1,36 +1,36 @@
 {
-  "updated_at": "2026-08-04T16:30:13.379955+05:30",
+  "updated_at": "2026-08-04T18:32:45.699553+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
       "value": "24,614.90",
-      "change": "▲ 0.95%",
-      "direction": "up"
+      "change": "▼ 0.64%",
+      "direction": "down"
     },
     {
       "symbol": "SENSEX",
       "value": "78,428.95",
-      "change": "▲ 0.43%",
-      "direction": "up"
+      "change": "▼ 0.27%",
+      "direction": "down"
     },
     {
       "symbol": "BANK NIFTY",
       "value": "57,907.20",
-      "change": "▲ 1.12%",
-      "direction": "up"
+      "change": "▼ 0.58%",
+      "direction": "down"
     },
     {
       "symbol": "S&P 500",
-      "value": "nan",
-      "change": "▼ nan%",
-      "direction": "down"
+      "value": "7,600.50",
+      "change": "▲ 1.48%",
+      "direction": "up"
     },
     {
       "symbol": "NASDAQ",
-      "value": "nan",
-      "change": "▼ nan%",
-      "direction": "down"
+      "value": "25,913.90",
+      "change": "▲ 2.13%",
+      "direction": "up"
     },
     {
       "symbol": "USD/INR",
@@ -40,21 +40,21 @@
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "84.72",
-      "change": "▼ 5.99%",
+      "value": "81.50",
+      "change": "▼ 2.71%",
       "direction": "down"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
+    "headline": "Filatex India shares can rally to Rs 118? Why Equirus Prive initiated coverage on the stock",
+    "lede": "Equirus Prive has initiated a Buy on Filatex India with a Rs 118 target, implying 53% upside. Capacity expansion, cost-saving initiatives, high-margin recycling business Ecosis and favourable industry tailwinds are expec"
   },
   "pulse": {
     "last_close": "24,614.90",
-    "change": "+0.95%",
-    "direction": "up",
+    "change": "-0.64%",
+    "direction": "down",
     "fii_net": "+1,284",
     "dii_net": "+642",
     "spark": [
@@ -66,6 +66,7 @@
       24250.2,
       24317.2,
       24383.6,
+      24774.3,
       24614.9
     ]
   },
