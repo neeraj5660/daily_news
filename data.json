@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05T16:26:38.509476+05:30",
+  "updated_at": "2026-08-05T18:18:08.213676+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
@@ -40,16 +40,16 @@
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "80.63",
-      "change": "▲ 1.60%",
+      "value": "80.45",
+      "change": "▲ 1.37%",
       "direction": "up"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
+    "headline": "India bonds rally on 'dovish' RBI hold, lower oil prices",
+    "lede": "Indian government bonds surged on Wednesday, with yields falling below important levels. The Reserve Bank of India decided to keep the repo rate steady, in line with anticipated market outcomes. A drop in oil prices help"
   },
   "pulse": {
     "last_close": "24,624.65",
