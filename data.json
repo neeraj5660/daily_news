@@ -1,64 +1,63 @@
 {
-  "updated_at": "2026-08-04T18:32:45.699553+05:30",
+  "updated_at": "2026-08-05T11:05:17.301145+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,614.90",
-      "change": "▼ 0.64%",
-      "direction": "down"
+      "value": "24,653.20",
+      "change": "▲ 0.16%",
+      "direction": "up"
     },
     {
       "symbol": "SENSEX",
-      "value": "78,428.95",
-      "change": "▼ 0.27%",
-      "direction": "down"
+      "value": "78,743.72",
+      "change": "▲ 0.40%",
+      "direction": "up"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "57,907.20",
-      "change": "▼ 0.58%",
+      "value": "57,855.80",
+      "change": "▼ 0.09%",
       "direction": "down"
     },
     {
       "symbol": "S&P 500",
-      "value": "7,600.50",
-      "change": "▲ 1.48%",
+      "value": "7,736.52",
+      "change": "▲ 1.79%",
       "direction": "up"
     },
     {
       "symbol": "NASDAQ",
-      "value": "25,913.90",
-      "change": "▲ 2.13%",
+      "value": "26,584.99",
+      "change": "▲ 2.59%",
       "direction": "up"
     },
     {
       "symbol": "USD/INR",
-      "value": "95.38",
-      "change": "▼ 0.03%",
+      "value": "95.07",
+      "change": "▼ 0.27%",
       "direction": "down"
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "81.50",
-      "change": "▼ 2.71%",
+      "value": "79.03",
+      "change": "▼ 5.66%",
       "direction": "down"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Filatex India shares can rally to Rs 118? Why Equirus Prive initiated coverage on the stock",
-    "lede": "Equirus Prive has initiated a Buy on Filatex India with a Rs 118 target, implying 53% upside. Capacity expansion, cost-saving initiatives, high-margin recycling business Ecosis and favourable industry tailwinds are expec"
+    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
   },
   "pulse": {
-    "last_close": "24,614.90",
-    "change": "-0.64%",
-    "direction": "down",
+    "last_close": "24,653.20",
+    "change": "+0.16%",
+    "direction": "up",
     "fii_net": "+1,284",
     "dii_net": "+642",
     "spark": [
-      23996.2,
       23869.6,
       23767.4,
       23995.9,
@@ -67,7 +66,8 @@
       24317.2,
       24383.6,
       24774.3,
-      24614.9
+      24614.9,
+      24653.2
     ]
   },
   "market": {
