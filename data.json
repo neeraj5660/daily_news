@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-08-05T11:05:17.301145+05:30",
+  "updated_at": "2026-08-05T13:42:02.484807+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,653.20",
-      "change": "▲ 0.16%",
-      "direction": "up"
+      "value": "24,519.75",
+      "change": "▼ 0.39%",
+      "direction": "down"
     },
     {
       "symbol": "SENSEX",
-      "value": "78,743.72",
-      "change": "▲ 0.40%",
-      "direction": "up"
+      "value": "78,408.89",
+      "change": "▼ 0.03%",
+      "direction": "down"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "57,855.80",
-      "change": "▼ 0.09%",
+      "value": "57,520.75",
+      "change": "▼ 0.67%",
       "direction": "down"
     },
     {
@@ -34,15 +34,15 @@
     },
     {
       "symbol": "USD/INR",
-      "value": "95.07",
-      "change": "▼ 0.27%",
+      "value": "95.17",
+      "change": "▼ 0.17%",
       "direction": "down"
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "79.03",
-      "change": "▼ 5.66%",
-      "direction": "down"
+      "value": "80.06",
+      "change": "▲ 0.88%",
+      "direction": "up"
     }
   ],
   "hero": {
@@ -52,9 +52,9 @@
     "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
   },
   "pulse": {
-    "last_close": "24,653.20",
-    "change": "+0.16%",
-    "direction": "up",
+    "last_close": "24,519.75",
+    "change": "-0.39%",
+    "direction": "down",
     "fii_net": "+1,284",
     "dii_net": "+642",
     "spark": [
@@ -67,7 +67,7 @@
       24383.6,
       24774.3,
       24614.9,
-      24653.2
+      24519.8
     ]
   },
   "market": {
