@@ -1,64 +1,63 @@
 {
-  "updated_at": "2026-08-05T18:18:08.213676+05:30",
+  "updated_at": "2026-08-06T11:07:24.781890+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,624.65",
-      "change": "▲ 0.04%",
+      "value": "24,631.60",
+      "change": "▲ 0.03%",
       "direction": "up"
     },
     {
       "symbol": "SENSEX",
-      "value": "78,581.00",
-      "change": "▲ 0.19%",
+      "value": "78,687.21",
+      "change": "▲ 0.14%",
       "direction": "up"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "57,739.95",
-      "change": "▼ 0.29%",
-      "direction": "down"
+      "value": "57,905.20",
+      "change": "▲ 0.29%",
+      "direction": "up"
     },
     {
       "symbol": "S&P 500",
-      "value": "7,736.52",
-      "change": "▲ 1.79%",
-      "direction": "up"
-    },
-    {
-      "symbol": "NASDAQ",
-      "value": "26,584.99",
-      "change": "▲ 2.59%",
-      "direction": "up"
-    },
-    {
-      "symbol": "USD/INR",
-      "value": "95.12",
-      "change": "▼ 0.22%",
+      "value": "7,723.55",
+      "change": "▼ 0.17%",
       "direction": "down"
     },
     {
-      "symbol": "BRENT CRUDE",
-      "value": "80.45",
-      "change": "▲ 1.37%",
+      "symbol": "NASDAQ",
+      "value": "26,363.44",
+      "change": "▼ 0.83%",
+      "direction": "down"
+    },
+    {
+      "symbol": "USD/INR",
+      "value": "95.15",
+      "change": "▲ 0.06%",
       "direction": "up"
+    },
+    {
+      "symbol": "BRENT CRUDE",
+      "value": "79.01",
+      "change": "▼ 0.55%",
+      "direction": "down"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "India bonds rally on 'dovish' RBI hold, lower oil prices",
-    "lede": "Indian government bonds surged on Wednesday, with yields falling below important levels. The Reserve Bank of India decided to keep the repo rate steady, in line with anticipated market outcomes. A drop in oil prices help"
+    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
   },
   "pulse": {
-    "last_close": "24,624.65",
-    "change": "+0.04%",
+    "last_close": "24,631.60",
+    "change": "+0.03%",
     "direction": "up",
     "fii_net": "+1,284",
     "dii_net": "+642",
     "spark": [
-      23869.6,
       23767.4,
       23995.9,
       23985.3,
@@ -67,7 +66,8 @@
       24383.6,
       24774.3,
       24614.9,
-      24624.7
+      24624.7,
+      24631.6
     ]
   },
   "market": {
