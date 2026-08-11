@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-08-11T13:30:58.200767+05:30",
+  "updated_at": "2026-08-11T14:56:39.943802+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,456.60",
-      "change": "▼ 0.52%",
+      "value": "24,461.65",
+      "change": "▼ 0.50%",
       "direction": "down"
     },
     {
       "symbol": "SENSEX",
-      "value": "78,153.71",
-      "change": "▼ 0.49%",
+      "value": "78,119.19",
+      "change": "▼ 0.54%",
       "direction": "down"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "57,402.45",
-      "change": "▼ 0.49%",
+      "value": "57,363.95",
+      "change": "▼ 0.56%",
       "direction": "down"
     },
     {
@@ -34,26 +34,26 @@
     },
     {
       "symbol": "USD/INR",
-      "value": "95.43",
+      "value": "95.44",
       "change": "▲ 0.24%",
       "direction": "up"
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "89.57",
-      "change": "▲ 2.11%",
+      "value": "89.92",
+      "change": "▲ 2.51%",
       "direction": "up"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Bitcoin slips to $64K, Ethereum below $1,900 amid crypto market volatility",
-    "lede": "Bitcoin slipped below the $64,000 mark and Ethereum fell below $1,900 on Tuesday as crypto markets came under renewed pressure amid macroeconomic uncertainty and leveraged positioning, triggering another bout of volatili"
+    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
   },
   "pulse": {
-    "last_close": "24,456.60",
-    "change": "-0.52%",
+    "last_close": "24,461.65",
+    "change": "-0.50%",
     "direction": "down",
     "fii_net": "+1,284",
     "dii_net": "+642",
@@ -67,7 +67,7 @@
       24636.0,
       24570.7,
       24583.8,
-      24456.6
+      24461.7
     ]
   },
   "market": {
