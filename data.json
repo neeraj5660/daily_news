@@ -1,64 +1,63 @@
 {
-  "updated_at": "2026-08-11T17:33:09.727358+05:30",
+  "updated_at": "2026-08-12T10:01:13.779011+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,471.70",
-      "change": "▼ 0.46%",
+      "value": "24,371.90",
+      "change": "▼ 0.41%",
       "direction": "down"
     },
     {
       "symbol": "SENSEX",
-      "value": "78,154.25",
-      "change": "▼ 0.49%",
+      "value": "78,003.39",
+      "change": "▼ 0.19%",
       "direction": "down"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "57,446.25",
-      "change": "▼ 0.42%",
-      "direction": "down"
+      "value": "57,605.85",
+      "change": "▲ 0.28%",
+      "direction": "up"
     },
     {
       "symbol": "S&P 500",
-      "value": "7,753.11",
-      "change": "▼ 0.06%",
-      "direction": "down"
-    },
-    {
-      "symbol": "NASDAQ",
-      "value": "26,605.36",
+      "value": "7,728.20",
       "change": "▼ 0.32%",
       "direction": "down"
     },
     {
+      "symbol": "NASDAQ",
+      "value": "26,445.45",
+      "change": "▼ 0.60%",
+      "direction": "down"
+    },
+    {
       "symbol": "USD/INR",
-      "value": "95.43",
-      "change": "▲ 0.24%",
+      "value": "95.40",
+      "change": "▲ 0.01%",
       "direction": "up"
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "87.62",
-      "change": "▼ 0.11%",
-      "direction": "down"
+      "value": "89.74",
+      "change": "▲ 0.93%",
+      "direction": "up"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
+    "headline": "FMCG’s FII nightmare! $5.2 billion selloff in 12 straight months. Are stocks set for a rebound?",
+    "lede": "Over the past year, foreign investors have unloaded $5.2 billion worth of FMCG stocks, largely due to the challenges stemming from inflated valuations and rising input costs. Companies are now transferring these increase"
   },
   "pulse": {
-    "last_close": "24,471.70",
-    "change": "-0.46%",
+    "last_close": "24,371.90",
+    "change": "-0.41%",
     "direction": "down",
     "fii_net": "+1,284",
     "dii_net": "+642",
     "spark": [
-      24250.2,
       24317.2,
       24383.6,
       24774.3,
@@ -67,7 +66,8 @@
       24636.0,
       24570.7,
       24583.8,
-      24471.7
+      24471.7,
+      24371.9
     ]
   },
   "market": {
