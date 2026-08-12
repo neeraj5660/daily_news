@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-08-12T10:01:13.779011+05:30",
+  "updated_at": "2026-08-12T11:36:44.768959+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,371.90",
-      "change": "▼ 0.41%",
+      "value": "24,295.60",
+      "change": "▼ 0.72%",
       "direction": "down"
     },
     {
       "symbol": "SENSEX",
-      "value": "78,003.39",
-      "change": "▼ 0.19%",
+      "value": "77,639.21",
+      "change": "▼ 0.66%",
       "direction": "down"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "57,605.85",
-      "change": "▲ 0.28%",
+      "value": "57,560.80",
+      "change": "▲ 0.20%",
       "direction": "up"
     },
     {
@@ -34,26 +34,26 @@
     },
     {
       "symbol": "USD/INR",
-      "value": "95.40",
-      "change": "▲ 0.01%",
+      "value": "95.42",
+      "change": "▲ 0.02%",
       "direction": "up"
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "89.74",
-      "change": "▲ 0.93%",
+      "value": "89.73",
+      "change": "▲ 0.92%",
       "direction": "up"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "FMCG’s FII nightmare! $5.2 billion selloff in 12 straight months. Are stocks set for a rebound?",
-    "lede": "Over the past year, foreign investors have unloaded $5.2 billion worth of FMCG stocks, largely due to the challenges stemming from inflated valuations and rising input costs. Companies are now transferring these increase"
+    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
   },
   "pulse": {
-    "last_close": "24,371.90",
-    "change": "-0.41%",
+    "last_close": "24,295.60",
+    "change": "-0.72%",
     "direction": "down",
     "fii_net": "+1,284",
     "dii_net": "+642",
@@ -67,7 +67,7 @@
       24570.7,
       24583.8,
       24471.7,
-      24371.9
+      24295.6
     ]
   },
   "market": {
