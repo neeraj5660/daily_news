@@ -1,24 +1,24 @@
 {
-  "updated_at": "2026-08-14T10:10:33.355498+05:30",
+  "updated_at": "2026-08-14T11:36:35.573910+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,356.75",
-      "change": "▼ 0.16%",
+      "value": "24,319.20",
+      "change": "▼ 0.31%",
       "direction": "down"
     },
     {
       "symbol": "SENSEX",
-      "value": "77,797.88",
-      "change": "▼ 0.36%",
+      "value": "77,806.09",
+      "change": "▼ 0.35%",
       "direction": "down"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "57,649.05",
-      "change": "▲ 0.02%",
-      "direction": "up"
+      "value": "57,434.95",
+      "change": "▼ 0.35%",
+      "direction": "down"
     },
     {
       "symbol": "S&P 500",
@@ -34,26 +34,26 @@
     },
     {
       "symbol": "USD/INR",
-      "value": "95.40",
-      "change": "▲ 0.06%",
+      "value": "95.42",
+      "change": "▲ 0.08%",
       "direction": "up"
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "87.00",
-      "change": "▼ 0.08%",
-      "direction": "down"
+      "value": "87.63",
+      "change": "▲ 0.64%",
+      "direction": "up"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
+    "headline": "Sammaan Capital shares fall 4% after Q1 profit declines 27% to Rs 243 crore, revenue drops 31%",
+    "lede": "Sammaan Capital reported a 27% YoY decline in consolidated profit to Rs 243 crore in Q1FY27, while revenue from operations also fell. The company reported Rs 56,239 crore in AUM and Rs 3,875 crore in disbursements, with "
   },
   "pulse": {
-    "last_close": "24,356.75",
-    "change": "-0.16%",
+    "last_close": "24,319.20",
+    "change": "-0.31%",
     "direction": "down",
     "fii_net": "+1,284",
     "dii_net": "+642",
@@ -67,7 +67,7 @@
       24471.7,
       24435.9,
       24395.8,
-      24356.8
+      24319.2
     ]
   },
   "market": {
