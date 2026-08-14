@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-08-14T15:20:35.037915+05:30",
+  "updated_at": "2026-08-14T16:15:14.815166+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,354.85",
-      "change": "▼ 0.17%",
+      "value": "24,366.00",
+      "change": "▼ 0.12%",
       "direction": "down"
     },
     {
       "symbol": "SENSEX",
-      "value": "77,945.18",
-      "change": "▼ 0.17%",
+      "value": "78,009.25",
+      "change": "▼ 0.09%",
       "direction": "down"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "57,459.10",
-      "change": "▼ 0.31%",
+      "value": "57,491.10",
+      "change": "▼ 0.25%",
       "direction": "down"
     },
     {
@@ -34,26 +34,26 @@
     },
     {
       "symbol": "USD/INR",
-      "value": "95.44",
-      "change": "▲ 0.10%",
+      "value": "95.42",
+      "change": "▲ 0.07%",
       "direction": "up"
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "87.73",
-      "change": "▲ 0.76%",
+      "value": "87.27",
+      "change": "▲ 0.23%",
       "direction": "up"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Global Market | Bank of Japan could raise rates in September, eye faster hikes: Reports",
-    "lede": "The Bank of Japan is contemplating a potential increase in interest rates, likely as soon as September. This decision stems from concerns regarding inflation driven by global factors and a depreciating yen. Policymakers "
+    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
   },
   "pulse": {
-    "last_close": "24,354.85",
-    "change": "-0.17%",
+    "last_close": "24,366.00",
+    "change": "-0.12%",
     "direction": "down",
     "fii_net": "+1,284",
     "dii_net": "+642",
@@ -67,7 +67,7 @@
       24471.7,
       24435.9,
       24395.8,
-      24354.8
+      24366.0
     ]
   },
   "market": {
