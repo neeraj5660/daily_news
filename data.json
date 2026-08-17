@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-08-17T09:59:24.043371+05:30",
+  "updated_at": "2026-08-17T10:38:05.115222+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,289.45",
-      "change": "▼ 0.31%",
+      "value": "24,253.50",
+      "change": "▼ 0.46%",
       "direction": "down"
     },
     {
       "symbol": "SENSEX",
-      "value": "77,707.01",
-      "change": "▼ 0.39%",
+      "value": "77,570.83",
+      "change": "▼ 0.56%",
       "direction": "down"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "57,305.10",
-      "change": "▼ 0.32%",
+      "value": "57,145.90",
+      "change": "▼ 0.60%",
       "direction": "down"
     },
     {
@@ -34,26 +34,26 @@
     },
     {
       "symbol": "USD/INR",
-      "value": "95.61",
-      "change": "▲ 0.22%",
+      "value": "95.59",
+      "change": "▲ 0.20%",
       "direction": "up"
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "88.70",
-      "change": "▲ 0.20%",
+      "value": "88.60",
+      "change": "▲ 0.09%",
       "direction": "up"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
+    "headline": "US Stock Market: Tiger Global trims big tech bets, adds AMD and SpaceX in Q2",
+    "lede": "Tiger Global reshuffled its tech portfolio in Q2, cutting stakes in Alphabet, Nvidia, Microsoft, Amazon, Meta, Broadcom and TSMC while exiting Netflix. The fund more than doubled its Intel holding and initiated positions"
   },
   "pulse": {
-    "last_close": "24,289.45",
-    "change": "-0.31%",
+    "last_close": "24,253.50",
+    "change": "-0.46%",
     "direction": "down",
     "fii_net": "+1,284",
     "dii_net": "+642",
@@ -67,7 +67,7 @@
       24435.9,
       24395.8,
       24366.0,
-      24289.4
+      24253.5
     ]
   },
   "market": {
