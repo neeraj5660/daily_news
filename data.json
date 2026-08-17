@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-08-17T13:11:22.001607+05:30",
+  "updated_at": "2026-08-17T13:58:51.833576+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,338.05",
-      "change": "▼ 0.11%",
+      "value": "24,335.55",
+      "change": "▼ 0.12%",
       "direction": "down"
     },
     {
       "symbol": "SENSEX",
-      "value": "77,801.61",
-      "change": "▼ 0.27%",
+      "value": "77,887.59",
+      "change": "▼ 0.16%",
       "direction": "down"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "57,628.20",
-      "change": "▲ 0.24%",
+      "value": "57,587.60",
+      "change": "▲ 0.17%",
       "direction": "up"
     },
     {
@@ -34,26 +34,26 @@
     },
     {
       "symbol": "USD/INR",
-      "value": "95.59",
-      "change": "▲ 0.20%",
+      "value": "95.60",
+      "change": "▲ 0.21%",
       "direction": "up"
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "88.39",
-      "change": "▼ 0.15%",
-      "direction": "down"
+      "value": "88.77",
+      "change": "▲ 0.28%",
+      "direction": "up"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Global Market: AI investment story shifts from spending to picking the winners",
-    "lede": "The AI investment debate is shifting toward identifying sustainable winners as spending accelerates. Hyperscalers, semiconductor firms and neocloud providers remain key beneficiaries, but investors increasingly prioritis"
+    "headline": "BSE launches 3-day SLB contracts to boost short-term securities borrowing",
+    "lede": "BSE Clearing has launched three-working-day securities lending and borrowing (SLB) contracts to give market participants greater flexibility for short-term borrowing and delivery needs. The new contracts, effective Augus"
   },
   "pulse": {
-    "last_close": "24,338.05",
-    "change": "-0.11%",
+    "last_close": "24,335.55",
+    "change": "-0.12%",
     "direction": "down",
     "fii_net": "+1,284",
     "dii_net": "+642",
@@ -67,7 +67,7 @@
       24435.9,
       24395.8,
       24366.0,
-      24338.1
+      24335.6
     ]
   },
   "market": {
