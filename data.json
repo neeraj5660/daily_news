@@ -1,47 +1,47 @@
 {
-  "updated_at": "2026-08-18T09:03:53.132493+05:30",
+  "updated_at": "2026-08-18T09:53:03.986758+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,366.00",
-      "change": "▼ 0.12%",
+      "value": "24,228.45",
+      "change": "▼ 0.56%",
       "direction": "down"
     },
     {
       "symbol": "SENSEX",
-      "value": "78,009.25",
-      "change": "▼ 0.09%",
+      "value": "77,499.37",
+      "change": "▼ 0.65%",
       "direction": "down"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "57,491.10",
-      "change": "▼ 0.25%",
+      "value": "57,353.25",
+      "change": "▼ 0.24%",
       "direction": "down"
     },
     {
       "symbol": "S&P 500",
-      "value": "7,745.06",
-      "change": "▼ 0.52%",
+      "value": "nan",
+      "change": "▼ nan%",
       "direction": "down"
     },
     {
       "symbol": "NASDAQ",
-      "value": "26,644.91",
-      "change": "▼ 0.32%",
+      "value": "nan",
+      "change": "▼ nan%",
       "direction": "down"
     },
     {
       "symbol": "USD/INR",
-      "value": "95.68",
-      "change": "▲ 0.24%",
+      "value": "95.67",
+      "change": "▲ 0.23%",
       "direction": "up"
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "91.39",
-      "change": "▲ 3.24%",
+      "value": "91.49",
+      "change": "▲ 0.68%",
       "direction": "up"
     }
   ],
@@ -52,13 +52,12 @@
     "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
   },
   "pulse": {
-    "last_close": "24,366.00",
-    "change": "-0.12%",
+    "last_close": "24,228.45",
+    "change": "-0.56%",
     "direction": "down",
     "fii_net": "+1,284",
     "dii_net": "+642",
     "spark": [
-      24614.9,
       24624.7,
       24636.0,
       24570.7,
@@ -66,7 +65,8 @@
       24471.7,
       24435.9,
       24395.8,
-      24366.0
+      24366.0,
+      24228.4
     ]
   },
   "market": {
