@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T15:45:47.195085+05:30",
+  "updated_at": "2026-08-18T16:22:17.369628+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
@@ -40,16 +40,16 @@
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "90.89",
-      "change": "▲ 0.02%",
-      "direction": "up"
+      "value": "90.63",
+      "change": "▼ 0.26%",
+      "direction": "down"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Following smart money: Where are India’s top investors betting next?",
-    "lede": "As private credit, venture debt and co-investments gain traction, India’s family offices and institutional investors are increasingly diversifying portfolios in search of differentiated sources of alpha."
+    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
   },
   "pulse": {
     "last_close": "24,154.90",
