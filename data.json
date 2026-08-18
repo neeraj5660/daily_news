@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-08-18T10:54:41.430836+05:30",
+  "updated_at": "2026-08-18T11:21:19.630890+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,194.60",
-      "change": "▼ 0.70%",
+      "value": "24,193.25",
+      "change": "▼ 0.71%",
       "direction": "down"
     },
     {
       "symbol": "SENSEX",
-      "value": "77,446.20",
-      "change": "▼ 0.72%",
+      "value": "77,370.57",
+      "change": "▼ 0.82%",
       "direction": "down"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "57,247.25",
-      "change": "▼ 0.42%",
+      "value": "57,269.70",
+      "change": "▼ 0.39%",
       "direction": "down"
     },
     {
@@ -40,20 +40,20 @@
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "91.50",
-      "change": "▲ 0.69%",
+      "value": "91.35",
+      "change": "▲ 0.53%",
       "direction": "up"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
+    "headline": "Mukul Agrawal-backed PTC Industries shares slip 4% despite 466% surge in Q1 profit and 180% EBITDA growth",
+    "lede": "PTC Industries shares fell 4% despite a strong Q1 FY27 performance, with profit surging 466% and EBITDA rising 180%. Revenue grew 83% year-on-year to ₹197.1 crore, supported by aerospace and defence programmes. Investors"
   },
   "pulse": {
-    "last_close": "24,194.60",
-    "change": "-0.70%",
+    "last_close": "24,193.25",
+    "change": "-0.71%",
     "direction": "down",
     "fii_net": "+1,284",
     "dii_net": "+642",
@@ -66,7 +66,7 @@
       24435.9,
       24395.8,
       24366.0,
-      24194.6
+      24193.2
     ]
   },
   "market": {
