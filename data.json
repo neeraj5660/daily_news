@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T16:22:17.369628+05:30",
+  "updated_at": "2026-08-18T16:44:04.213719+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
@@ -40,8 +40,8 @@
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "90.63",
-      "change": "▼ 0.26%",
+      "value": "90.75",
+      "change": "▼ 0.13%",
       "direction": "down"
     }
   ],
