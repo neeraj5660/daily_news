@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-08-18T15:24:53.386998+05:30",
+  "updated_at": "2026-08-18T15:45:47.195085+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,166.35",
-      "change": "▼ 0.82%",
+      "value": "24,154.90",
+      "change": "▼ 0.87%",
       "direction": "down"
     },
     {
       "symbol": "SENSEX",
-      "value": "77,372.76",
-      "change": "▼ 0.82%",
+      "value": "77,235.46",
+      "change": "▼ 0.99%",
       "direction": "down"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "57,308.15",
-      "change": "▼ 0.32%",
+      "value": "57,262.40",
+      "change": "▼ 0.40%",
       "direction": "down"
     },
     {
@@ -40,20 +40,20 @@
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "90.88",
-      "change": "▲ 0.01%",
+      "value": "90.89",
+      "change": "▲ 0.02%",
       "direction": "up"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
+    "headline": "Following smart money: Where are India’s top investors betting next?",
+    "lede": "As private credit, venture debt and co-investments gain traction, India’s family offices and institutional investors are increasingly diversifying portfolios in search of differentiated sources of alpha."
   },
   "pulse": {
-    "last_close": "24,166.35",
-    "change": "-0.82%",
+    "last_close": "24,154.90",
+    "change": "-0.87%",
     "direction": "down",
     "fii_net": "+1,284",
     "dii_net": "+642",
@@ -66,7 +66,7 @@
       24435.9,
       24395.8,
       24366.0,
-      24166.3
+      24154.9
     ]
   },
   "market": {
