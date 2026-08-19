@@ -1,47 +1,47 @@
 {
-  "updated_at": "2026-08-18T17:16:35.130563+05:30",
+  "updated_at": "2026-08-19T09:05:58.457681+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
       "value": "24,154.90",
-      "change": "▼ 0.87%",
+      "change": "▼ 0.55%",
       "direction": "down"
     },
     {
       "symbol": "SENSEX",
       "value": "77,235.46",
-      "change": "▼ 0.99%",
+      "change": "▼ 0.63%",
       "direction": "down"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "57,262.40",
-      "change": "▼ 0.40%",
-      "direction": "down"
+      "value": "57,497.80",
+      "change": "▲ 0.01%",
+      "direction": "up"
     },
     {
       "symbol": "S&P 500",
-      "value": "nan",
-      "change": "▼ nan%",
+      "value": "7,691.76",
+      "change": "▼ 0.69%",
       "direction": "down"
     },
     {
       "symbol": "NASDAQ",
-      "value": "nan",
-      "change": "▼ nan%",
+      "value": "26,289.71",
+      "change": "▼ 1.33%",
       "direction": "down"
     },
     {
       "symbol": "USD/INR",
-      "value": "95.67",
-      "change": "▲ 0.23%",
+      "value": "95.71",
+      "change": "▲ 0.02%",
       "direction": "up"
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "90.87",
-      "change": "▲ 0.00%",
+      "value": "91.70",
+      "change": "▲ 0.91%",
       "direction": "up"
     }
   ],
@@ -53,7 +53,7 @@
   },
   "pulse": {
     "last_close": "24,154.90",
-    "change": "-0.87%",
+    "change": "-0.55%",
     "direction": "down",
     "fii_net": "+1,284",
     "dii_net": "+642",
@@ -66,6 +66,7 @@
       24435.9,
       24395.8,
       24366.0,
+      24287.7,
       24154.9
     ]
   },
