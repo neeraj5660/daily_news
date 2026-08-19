@@ -1,47 +1,47 @@
 {
-  "updated_at": "2026-08-19T11:22:49.421113+05:30",
+  "updated_at": "2026-08-19T11:51:48.659066+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,059.50",
-      "change": "▼ 0.39%",
+      "value": "24,072.00",
+      "change": "▼ 0.34%",
       "direction": "down"
     },
     {
       "symbol": "SENSEX",
-      "value": "76,848.27",
-      "change": "▼ 1.13%",
+      "value": "76,890.92",
+      "change": "▼ 1.08%",
       "direction": "down"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "57,081.95",
-      "change": "▼ 0.72%",
+      "value": "57,148.65",
+      "change": "▼ 0.61%",
       "direction": "down"
     },
     {
       "symbol": "S&P 500",
-      "value": "7,691.76",
-      "change": "▼ 0.69%",
+      "value": "nan",
+      "change": "▼ nan%",
       "direction": "down"
     },
     {
       "symbol": "NASDAQ",
-      "value": "26,289.71",
-      "change": "▼ 1.33%",
+      "value": "nan",
+      "change": "▼ nan%",
       "direction": "down"
     },
     {
       "symbol": "USD/INR",
-      "value": "95.72",
-      "change": "▲ 0.03%",
+      "value": "95.74",
+      "change": "▲ 0.05%",
       "direction": "up"
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "91.66",
-      "change": "▲ 0.70%",
+      "value": "91.75",
+      "change": "▲ 0.80%",
       "direction": "up"
     }
   ],
@@ -52,8 +52,8 @@
     "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
   },
   "pulse": {
-    "last_close": "24,059.50",
-    "change": "-0.39%",
+    "last_close": "24,072.00",
+    "change": "-0.34%",
     "direction": "down",
     "fii_net": "+1,284",
     "dii_net": "+642",
@@ -67,7 +67,7 @@
       24366.0,
       24287.7,
       24154.9,
-      24059.5
+      24072.0
     ]
   },
   "market": {
