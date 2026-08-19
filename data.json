@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-08-19T10:55:12.774992+05:30",
+  "updated_at": "2026-08-19T11:22:49.421113+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,062.05",
-      "change": "▼ 0.38%",
+      "value": "24,059.50",
+      "change": "▼ 0.39%",
       "direction": "down"
     },
     {
       "symbol": "SENSEX",
-      "value": "76,903.26",
-      "change": "▼ 0.43%",
+      "value": "76,848.27",
+      "change": "▼ 1.13%",
       "direction": "down"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "57,085.45",
-      "change": "▼ 0.31%",
+      "value": "57,081.95",
+      "change": "▼ 0.72%",
       "direction": "down"
     },
     {
@@ -40,20 +40,20 @@
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "91.54",
-      "change": "▲ 0.57%",
+      "value": "91.66",
+      "change": "▲ 0.70%",
       "direction": "up"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "IT crash ahead? CLSA downgrades TCS, Infosys, Wipro, other stocks; revises target prices. Here's why",
-    "lede": "CLSA downgraded several large IT stocks and cut their target prices amid continued AI-related concerns, while retaining a bullish view on select mid-tier IT companies. The brokerage said Q1 earnings were mixed across Ind"
+    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
   },
   "pulse": {
-    "last_close": "24,062.05",
-    "change": "-0.38%",
+    "last_close": "24,059.50",
+    "change": "-0.39%",
     "direction": "down",
     "fii_net": "+1,284",
     "dii_net": "+642",
@@ -67,7 +67,7 @@
       24366.0,
       24287.7,
       24154.9,
-      24062.1
+      24059.5
     ]
   },
   "market": {
