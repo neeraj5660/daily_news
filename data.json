@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-08-19T10:28:21.116946+05:30",
+  "updated_at": "2026-08-19T10:55:12.774992+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,068.50",
-      "change": "▼ 0.36%",
+      "value": "24,062.05",
+      "change": "▼ 0.38%",
       "direction": "down"
     },
     {
       "symbol": "SENSEX",
-      "value": "77,019.64",
-      "change": "▼ 0.28%",
+      "value": "76,903.26",
+      "change": "▼ 0.43%",
       "direction": "down"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "57,113.65",
-      "change": "▼ 0.67%",
+      "value": "57,085.45",
+      "change": "▼ 0.31%",
       "direction": "down"
     },
     {
@@ -34,26 +34,26 @@
     },
     {
       "symbol": "USD/INR",
-      "value": "95.73",
-      "change": "▲ 0.04%",
+      "value": "95.72",
+      "change": "▲ 0.03%",
       "direction": "up"
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "91.60",
-      "change": "▲ 0.64%",
+      "value": "91.54",
+      "change": "▲ 0.57%",
       "direction": "up"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
+    "headline": "IT crash ahead? CLSA downgrades TCS, Infosys, Wipro, other stocks; revises target prices. Here's why",
+    "lede": "CLSA downgraded several large IT stocks and cut their target prices amid continued AI-related concerns, while retaining a bullish view on select mid-tier IT companies. The brokerage said Q1 earnings were mixed across Ind"
   },
   "pulse": {
-    "last_close": "24,068.50",
-    "change": "-0.36%",
+    "last_close": "24,062.05",
+    "change": "-0.38%",
     "direction": "down",
     "fii_net": "+1,284",
     "dii_net": "+642",
@@ -67,7 +67,7 @@
       24366.0,
       24287.7,
       24154.9,
-      24068.5
+      24062.1
     ]
   },
   "market": {
