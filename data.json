@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T15:48:43.712385+05:30",
+  "updated_at": "2026-08-20T16:23:24.769454+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
@@ -40,16 +40,16 @@
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "93.84",
-      "change": "▲ 2.42%",
+      "value": "93.89",
+      "change": "▲ 2.48%",
       "direction": "up"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Quote of the day by Stanley Druckenmiller: \"It’s liquidity that moves markets\"",
-    "lede": "Stanley Druckenmiller’s famous liquidity insight highlights how money and credit availability can drive asset prices. Abundant liquidity can boost risk appetite and valuations, while tightening financial conditions can p"
+    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
   },
   "pulse": {
     "last_close": "24,231.85",
