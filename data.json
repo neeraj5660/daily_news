@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-08-21T10:31:45.775624+05:30",
+  "updated_at": "2026-08-21T11:23:49.988905+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,256.00",
-      "change": "▲ 0.10%",
+      "value": "24,253.30",
+      "change": "▲ 0.09%",
       "direction": "up"
     },
     {
       "symbol": "SENSEX",
-      "value": "77,551.97",
-      "change": "▲ 0.02%",
+      "value": "77,649.43",
+      "change": "▲ 0.14%",
       "direction": "up"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "57,668.80",
-      "change": "▲ 0.30%",
+      "value": "57,700.20",
+      "change": "▲ 0.36%",
       "direction": "up"
     },
     {
@@ -34,26 +34,26 @@
     },
     {
       "symbol": "USD/INR",
-      "value": "95.71",
-      "change": "▲ 0.22%",
+      "value": "95.72",
+      "change": "▲ 0.24%",
       "direction": "up"
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "93.49",
-      "change": "▼ 0.31%",
+      "value": "93.47",
+      "change": "▼ 0.33%",
       "direction": "down"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
+    "headline": "Bessent’s bond market push struggles to bring down US borrowing costs",
+    "lede": "US Treasury Secretary Scott Bessent’s bond-buyback push has offered only limited relief, with long-term Treasury yields rising again. Investors remain focused on the wider pressures driving borrowing costs higher, includ"
   },
   "pulse": {
-    "last_close": "24,256.00",
-    "change": "+0.10%",
+    "last_close": "24,253.30",
+    "change": "+0.09%",
     "direction": "up",
     "fii_net": "+1,284",
     "dii_net": "+642",
@@ -67,7 +67,7 @@
       24154.9,
       24078.3,
       24231.8,
-      24256.0
+      24253.3
     ]
   },
   "market": {
