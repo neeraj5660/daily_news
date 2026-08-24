@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-08-24T11:32:00.448391+05:30",
+  "updated_at": "2026-08-24T13:03:41.895867+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,178.80",
-      "change": "▼ 0.30%",
+      "value": "24,175.45",
+      "change": "▼ 0.32%",
       "direction": "down"
     },
     {
       "symbol": "SENSEX",
-      "value": "77,434.79",
-      "change": "▼ 0.14%",
+      "value": "77,295.71",
+      "change": "▼ 0.32%",
       "direction": "down"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "57,343.80",
-      "change": "▼ 0.72%",
+      "value": "57,331.25",
+      "change": "▼ 0.75%",
       "direction": "down"
     },
     {
@@ -34,26 +34,26 @@
     },
     {
       "symbol": "USD/INR",
-      "value": "95.69",
-      "change": "▼ 0.08%",
+      "value": "95.71",
+      "change": "▼ 0.06%",
       "direction": "down"
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "93.20",
-      "change": "▼ 1.26%",
+      "value": "92.80",
+      "change": "▼ 1.68%",
       "direction": "down"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Sugar stocks Balrampur Chini, Dhampur Sugar, Uttam Sugar Mills rally up to 11%. Here are 2 triggers",
-    "lede": "Sugar stocks rose sharply on Monday as domestic sugar prices climbed above Rs 50 per kg amid tight inventories and supply concerns. Festive demand, adverse weather in key producing regions and Brazil’s shift towards etha"
+    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
   },
   "pulse": {
-    "last_close": "24,178.80",
-    "change": "-0.30%",
+    "last_close": "24,175.45",
+    "change": "-0.32%",
     "direction": "down",
     "fii_net": "+1,284",
     "dii_net": "+642",
@@ -67,7 +67,7 @@
       24078.3,
       24231.8,
       24252.0,
-      24178.8
+      24175.4
     ]
   },
   "market": {
