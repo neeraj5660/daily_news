@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-08-25T14:34:45.743739+05:30",
+  "updated_at": "2026-08-25T15:27:47.237650+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,191.35",
-      "change": "▼ 0.11%",
-      "direction": "down"
+      "value": "24,260.05",
+      "change": "▲ 0.17%",
+      "direction": "up"
     },
     {
       "symbol": "SENSEX",
-      "value": "77,258.70",
-      "change": "▼ 0.14%",
-      "direction": "down"
+      "value": "77,571.99",
+      "change": "▲ 0.26%",
+      "direction": "up"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "57,384.25",
-      "change": "▼ 0.25%",
+      "value": "57,454.10",
+      "change": "▼ 0.12%",
       "direction": "down"
     },
     {
@@ -34,27 +34,27 @@
     },
     {
       "symbol": "USD/INR",
-      "value": "95.53",
-      "change": "▼ 0.18%",
+      "value": "95.44",
+      "change": "▼ 0.27%",
       "direction": "down"
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "88.83",
-      "change": "▼ 3.62%",
+      "value": "87.89",
+      "change": "▼ 4.64%",
       "direction": "down"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
+    "headline": "Vodafone Idea shares surge 7%: Is SBI-led debt deal finally nearing closure?",
+    "lede": "Vodafone Idea shares rose sharply after reports that a consortium of public-sector banks led by SBI is nearing approval of a larger debt package for the telecom operator. The funding is part of Vi’s broader Rs 45,000-cro"
   },
   "pulse": {
-    "last_close": "24,191.35",
-    "change": "-0.11%",
-    "direction": "down",
+    "last_close": "24,260.05",
+    "change": "+0.17%",
+    "direction": "up",
     "fii_net": "+1,284",
     "dii_net": "+642",
     "spark": [
@@ -67,7 +67,7 @@
       24231.8,
       24252.0,
       24219.1,
-      24191.3
+      24260.1
     ]
   },
   "market": {
