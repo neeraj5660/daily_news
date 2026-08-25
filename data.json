@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T17:20:33.273900+05:30",
+  "updated_at": "2026-08-25T09:07:42.176622+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
@@ -22,26 +22,26 @@
     },
     {
       "symbol": "S&P 500",
-      "value": "7,674.37",
-      "change": "▲ 0.43%",
-      "direction": "up"
-    },
-    {
-      "symbol": "NASDAQ",
-      "value": "26,180.46",
-      "change": "▲ 0.43%",
-      "direction": "up"
-    },
-    {
-      "symbol": "USD/INR",
-      "value": "95.74",
-      "change": "▼ 0.04%",
+      "value": "7,652.86",
+      "change": "▼ 0.28%",
       "direction": "down"
     },
     {
+      "symbol": "NASDAQ",
+      "value": "25,980.19",
+      "change": "▼ 0.76%",
+      "direction": "down"
+    },
+    {
+      "symbol": "USD/INR",
+      "value": "95.73",
+      "change": "▲ 0.03%",
+      "direction": "up"
+    },
+    {
       "symbol": "BRENT CRUDE",
-      "value": "92.96",
-      "change": "▼ 1.51%",
+      "value": "92.38",
+      "change": "▼ 2.13%",
       "direction": "down"
     }
   ],
