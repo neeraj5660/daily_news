@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-08-26T09:57:52.598950+05:30",
+  "updated_at": "2026-08-26T10:33:44.880932+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,371.35",
-      "change": "▲ 0.15%",
-      "direction": "up"
+      "value": "24,316.20",
+      "change": "▼ 0.08%",
+      "direction": "down"
     },
     {
       "symbol": "SENSEX",
-      "value": "77,956.05",
-      "change": "▲ 0.39%",
+      "value": "77,787.22",
+      "change": "▲ 0.17%",
       "direction": "up"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "57,984.75",
-      "change": "▲ 0.82%",
+      "value": "57,951.30",
+      "change": "▲ 0.76%",
       "direction": "up"
     },
     {
@@ -40,21 +40,21 @@
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "85.35",
-      "change": "▼ 3.65%",
+      "value": "85.49",
+      "change": "▼ 3.49%",
       "direction": "down"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Sensex rises over 200 points; Nifty nears 24,350 as oil prices slide. What lies ahead?",
-    "lede": "On Wednesday, Indian stock markets rallied, buoyed by a decrease in oil prices and renewed optimism surrounding the reopening of the Strait of Hormuz, following a resumption of talks with Iran. Both the Sensex and Nifty "
+    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
   },
   "pulse": {
-    "last_close": "24,371.35",
-    "change": "+0.15%",
-    "direction": "up",
+    "last_close": "24,316.20",
+    "change": "-0.08%",
+    "direction": "down",
     "fii_net": "+1,284",
     "dii_net": "+642",
     "spark": [
@@ -67,7 +67,7 @@
       24252.0,
       24219.1,
       24334.6,
-      24371.3
+      24316.2
     ]
   },
   "market": {
