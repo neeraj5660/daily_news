@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T16:51:58.488941+05:30",
+  "updated_at": "2026-08-26T17:22:34.137990+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
@@ -40,16 +40,16 @@
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "85.10",
-      "change": "▼ 3.93%",
+      "value": "85.49",
+      "change": "▼ 3.49%",
       "direction": "down"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
+    "headline": "ICICI Prudential AMC shares: Prudential Corporation to divest up to 2% equity, stock up 49% from IPO price",
+    "lede": "ICICI Prudential AMC promoter Prudential Corporation Holdings plans to sell up to 2% stake through open-market transactions from August 27 to meet minimum public shareholding requirements. Promoter holding will fall to 8"
   },
   "pulse": {
     "last_close": "24,207.75",
