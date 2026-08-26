@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-08-26T09:12:15.659147+05:30",
+  "updated_at": "2026-08-26T09:57:52.598950+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,341.95",
-      "change": "▲ 0.03%",
+      "value": "24,371.35",
+      "change": "▲ 0.15%",
       "direction": "up"
     },
     {
       "symbol": "SENSEX",
-      "value": "77,656.09",
-      "change": "▲ 0.37%",
+      "value": "77,956.05",
+      "change": "▲ 0.39%",
       "direction": "up"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "57,628.65",
-      "change": "▲ 0.20%",
+      "value": "57,984.75",
+      "change": "▲ 0.82%",
       "direction": "up"
     },
     {
@@ -40,25 +40,24 @@
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "85.20",
-      "change": "▼ 7.56%",
+      "value": "85.35",
+      "change": "▼ 3.65%",
       "direction": "down"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Crorepati investors touch record Rs 10 lakh crore milestone. Which stocks are making them richer?",
-    "lede": "HNIs’ holdings in NSE-listed stocks surged 22.55% QoQ to a record Rs 9.92 lakh crore by June-end, adding Rs 1.83 lakh crore in three months. Their share of market value rose to 2.12%, the highest since March 2022. Howeve"
+    "headline": "Sensex rises over 200 points; Nifty nears 24,350 as oil prices slide. What lies ahead?",
+    "lede": "On Wednesday, Indian stock markets rallied, buoyed by a decrease in oil prices and renewed optimism surrounding the reopening of the Strait of Hormuz, following a resumption of talks with Iran. Both the Sensex and Nifty "
   },
   "pulse": {
-    "last_close": "24,341.95",
-    "change": "+0.03%",
+    "last_close": "24,371.35",
+    "change": "+0.15%",
     "direction": "up",
     "fii_net": "+1,284",
     "dii_net": "+642",
     "spark": [
-      24435.9,
       24395.8,
       24366.0,
       24287.7,
@@ -68,7 +67,7 @@
       24252.0,
       24219.1,
       24334.6,
-      24341.9
+      24371.3
     ]
   },
   "market": {
