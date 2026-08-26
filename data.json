@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T15:33:24.441756+05:30",
+  "updated_at": "2026-08-26T16:27:20.777930+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
@@ -10,8 +10,8 @@
     },
     {
       "symbol": "SENSEX",
-      "value": "77,615.46",
-      "change": "▼ 0.05%",
+      "value": "77,472.94",
+      "change": "▼ 0.24%",
       "direction": "down"
     },
     {
@@ -40,16 +40,16 @@
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "84.92",
-      "change": "▼ 4.13%",
+      "value": "85.04",
+      "change": "▼ 4.00%",
       "direction": "down"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
+    "headline": "Sensex falls 183 points, Nifty closes below 24,250 as market erases all morning gains. What lies ahead?",
+    "lede": "The Indian stock markets experienced a shift, dropping from earlier gains with both Sensex and Nifty closing lower. Key decliners included Infosys, Bharti Airtel, and L&amp;T. Meanwhile, Kotak Mahindra Bank's shares surg"
   },
   "pulse": {
     "last_close": "24,207.75",
