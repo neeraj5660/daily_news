@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-08-26T11:59:00.960875+05:30",
+  "updated_at": "2026-08-26T12:55:05.576188+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,291.40",
-      "change": "▼ 0.18%",
+      "value": "24,277.25",
+      "change": "▼ 0.24%",
       "direction": "down"
     },
     {
       "symbol": "SENSEX",
-      "value": "77,759.69",
-      "change": "▲ 0.13%",
+      "value": "77,672.99",
+      "change": "▲ 0.02%",
       "direction": "up"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "57,894.15",
-      "change": "▲ 0.66%",
+      "value": "57,949.05",
+      "change": "▲ 0.76%",
       "direction": "up"
     },
     {
@@ -40,20 +40,20 @@
     },
     {
       "symbol": "BRENT CRUDE",
-      "value": "85.87",
-      "change": "▼ 3.06%",
+      "value": "85.40",
+      "change": "▼ 3.59%",
       "direction": "down"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "Global Market: China, Hong Kong stocks rise as AI rebound boosts investor sentiment",
-    "lede": "On Wednesday, stocks in China and Hong Kong surged, reflecting a favourable global market environment. Technology and artificial intelligence supply-chain companies attracted significant investor interest. Alibaba shares"
+    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
   },
   "pulse": {
-    "last_close": "24,291.40",
-    "change": "-0.18%",
+    "last_close": "24,277.25",
+    "change": "-0.24%",
     "direction": "down",
     "fii_net": "+1,284",
     "dii_net": "+642",
@@ -67,7 +67,7 @@
       24252.0,
       24219.1,
       24334.6,
-      24291.4
+      24277.2
     ]
   },
   "market": {
