@@ -1,64 +1,63 @@
 {
-  "updated_at": "2026-08-26T17:22:34.137990+05:30",
+  "updated_at": "2026-08-27T18:43:14.735260+05:30",
   "edition_label": "Pre-Market Edition · IST 07:45",
   "ticker": [
     {
       "symbol": "NIFTY 50",
-      "value": "24,207.75",
-      "change": "▼ 0.52%",
+      "value": "24,090.85",
+      "change": "▼ 0.48%",
       "direction": "down"
     },
     {
       "symbol": "SENSEX",
-      "value": "77,472.94",
-      "change": "▼ 0.24%",
+      "value": "76,933.59",
+      "change": "▼ 0.70%",
       "direction": "down"
     },
     {
       "symbol": "BANK NIFTY",
-      "value": "57,783.75",
-      "change": "▲ 0.47%",
-      "direction": "up"
-    },
-    {
-      "symbol": "S&P 500",
-      "value": "7,677.28",
-      "change": "▲ 0.32%",
-      "direction": "up"
-    },
-    {
-      "symbol": "NASDAQ",
-      "value": "26,151.30",
-      "change": "▲ 0.66%",
-      "direction": "up"
-    },
-    {
-      "symbol": "USD/INR",
-      "value": "95.40",
-      "change": "▼ 0.34%",
+      "value": "57,509.95",
+      "change": "▼ 0.47%",
       "direction": "down"
     },
     {
+      "symbol": "S&P 500",
+      "value": "7,675.70",
+      "change": "▼ 0.02%",
+      "direction": "down"
+    },
+    {
+      "symbol": "NASDAQ",
+      "value": "26,130.20",
+      "change": "▼ 0.08%",
+      "direction": "down"
+    },
+    {
+      "symbol": "USD/INR",
+      "value": "95.52",
+      "change": "▲ 2.11%",
+      "direction": "up"
+    },
+    {
       "symbol": "BRENT CRUDE",
-      "value": "85.49",
-      "change": "▼ 3.49%",
+      "value": "87.55",
+      "change": "▼ 0.33%",
       "direction": "down"
     }
   ],
   "hero": {
     "confidence": "MEDIUM",
     "confidence_note": "financial news portal",
-    "headline": "ICICI Prudential AMC shares: Prudential Corporation to divest up to 2% equity, stock up 49% from IPO price",
-    "lede": "ICICI Prudential AMC promoter Prudential Corporation Holdings plans to sell up to 2% stake through open-market transactions from August 27 to meet minimum public shareholding requirements. Promoter holding will fall to 8"
+    "headline": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+    "lede": "<img align=\" left\" alt=\"Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher\" border=\"0\" height=\"75\" hspace=\"5\" src=\"https://www.moneycontrol.com/news_image_files/2024/200x200/v/volatile_market"
   },
   "pulse": {
-    "last_close": "24,207.75",
-    "change": "-0.52%",
+    "last_close": "24,090.85",
+    "change": "-0.48%",
     "direction": "down",
     "fii_net": "+1,284",
     "dii_net": "+642",
     "spark": [
-      24395.8,
       24366.0,
       24287.7,
       24154.9,
@@ -67,7 +66,8 @@
       24252.0,
       24219.1,
       24334.6,
-      24207.8
+      24207.8,
+      24090.8
     ]
   },
   "market": {
