@@ -4,3 +4,20 @@ read.md
 archive/
 search_index.json
 archive_index.json
+# Sensitive / secret files
+.env
+.env.*
+secrets*
+*.key
+*.pem
+*.crt
+credentials.json
+credentials/*.json
+*.p12
+*.jks
+.vscode/
+.idea/
+.DS_Store
+*.sqlite
+*.db
+/sensitive/
