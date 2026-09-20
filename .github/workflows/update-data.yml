@@ -23,7 +23,7 @@ jobs:
       - name: Generate LLM sections (Gemini)
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python generate_llm_sections_gemini.py
+        run: python generate_llm_sections.py
 
       - run: python fetch_data.py
 
