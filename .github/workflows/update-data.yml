@@ -2,7 +2,7 @@ name: Update Morning Desk data
 
 on:
   schedule:
-    - cron: "*/30 3-11 * * 1-5"
+    - cron: "30 3 * * 1-5"   # 9:00 AM IST, Mon-Fri
   workflow_dispatch: {}
 
 permissions:
@@ -20,13 +20,18 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      - name: Generate LLM sections
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python generate_llm_sections.py
+
       - run: python fetch_data.py
 
-      - name: Commit updated data.json
-  run: |
-    git config user.name "morning-desk-bot"
-    git config user.email "bot@users.noreply.github.com"
-    git add data.json
-    git diff --quiet --cached || git commit -m "Auto-update market data"
-    git pull --rebase origin main
-    git push
+      - name: Commit updated data
+        run: |
+          git config user.name "morning-desk-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data.json manual_sections.json
+          git diff --quiet --cached || git commit -m "Auto-update market data"
+          git pull --rebase origin main
+          git push
