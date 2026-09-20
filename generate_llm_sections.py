@@ -1,32 +1,34 @@
 """
-generate_llm_sections.py — fills manual_sections.json with the sections
-fetch_data.py's own docstring says it can't get for free: FII/DII, the
-Pre-Market Momentum Radar, insider/smart-money activity, the IPO/earnings/
-macro calendar, and geopolitical items.
+generate_llm_sections.py — Gemini version.
 
-PIPELINE ORDER (see .github/workflows/daily-india-briefing.yml):
+Fills manual_sections.json with the sections fetch_data.py can't get for
+free: FII/DII, the Pre-Market Momentum Radar, insider/smart-money activity,
+the IPO/earnings/macro calendar, and geopolitical items — using Gemini's
+native Google Search grounding instead of the Anthropic API.
+
+PIPELINE ORDER (unchanged — see .github/workflows/update-morning-desk-data.yml):
     1. python generate_llm_sections.py   <- this script, writes manual_sections.json
     2. python fetch_data.py              <- unchanged, reads manual_sections.json,
-                                             merges it with free yfinance/RSS data,
+                                             merges with free yfinance/RSS data,
                                              writes the final data.json
 
-SCHEMA NOTE (read this before trusting the output):
-    fetch_data.py only tells us the *keys* it merges in (market, radar,
-    insider, calendar, geo) — it doesn't tell us the shape your site's
-    JS expects *inside* each one. The shapes below are a reasonable
-    inference from the one object we do have a confirmed shape for
-    (`hero`, which uses confidence/confidence_note/headline/lede).
-    If your site's rendering code expects different field names, the
-    fix is localised: adjust the JSON_SCHEMA description in the system
-    prompt below, and this script's output will follow it exactly next
-    run — no need to touch fetch_data.py or the site itself.
+MODEL NOTE: using gemini-3-flash-preview. Gemini 2.5 models (including
+2.5 Flash) are scheduled for shutdown on 2026-10-16 — do not switch to
+those without checking ai.google.dev/gemini-api/docs/models for current
+status first. If you want cheaper/faster over more capable, gemini-3.1-
+flash-lite is the current stable (non-preview) alternative — swap the
+MODEL constant below, nothing else needs to change.
+
+SCHEMA NOTE: unchanged from the Anthropic version — this is still a best
+inferred guess unless you've confirmed it against manual_sections.json's
+actual existing content / your site's rendering JS. See README.md.
 
 Requires:
     pip install -r requirements.txt
-    env var ANTHROPIC_API_KEY set (GitHub Actions secret in CI)
+    env var GEMINI_API_KEY set (GitHub Actions secret in CI)
 
 Run manually to test:
-    ANTHROPIC_API_KEY=sk-... python generate_llm_sections.py
+    GEMINI_API_KEY=AIza... python generate_llm_sections.py
 """
 
 import os
@@ -35,10 +37,10 @@ import json
 import datetime
 from pathlib import Path
 
-import anthropic
+from google import genai
+from google.genai import types
 
-MODEL = "claude-sonnet-4-6"
-MAX_TOKENS = 6000
+MODEL = "gemini-3-flash-preview"
 MANUAL_FILE = Path(__file__).parent / "manual_sections.json"
 
 JSON_SCHEMA_DESCRIPTION = """
@@ -138,33 +140,30 @@ Rules:
 
 
 def generate() -> dict:
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
-        print("ERROR: ANTHROPIC_API_KEY is not set.", file=sys.stderr)
+        print("ERROR: GEMINI_API_KEY is not set.", file=sys.stderr)
         sys.exit(1)
 
-    client = anthropic.Anthropic(api_key=api_key)
+    client = genai.Client(api_key=api_key)
     today = datetime.date.today().isoformat()
 
-    response = client.messages.create(
-        model=MODEL,
-        max_tokens=MAX_TOKENS,
-        system=SYSTEM_PROMPT,
-        messages=[
-            {
-                "role": "user",
-                "content": f"Generate today's sections. Today's date is {today}.",
-            }
-        ],
-        tools=[{"type": "web_search_20250305", "name": "web_search"}],
+    grounding_tool = types.Tool(google_search=types.GoogleSearch())
+    config = types.GenerateContentConfig(
+        system_instruction=SYSTEM_PROMPT,
+        tools=[grounding_tool],
     )
 
-    text_parts = [block.text for block in response.content if block.type == "text"]
-    if not text_parts:
+    response = client.models.generate_content(
+        model=MODEL,
+        contents=f"Generate today's sections. Today's date is {today}.",
+        config=config,
+    )
+
+    if not response.text:
         raise RuntimeError("No text content returned from the API.")
 
-    raw = "\n".join(text_parts).strip()
-    return extract_json(raw)
+    return extract_json(response.text)
 
 
 def extract_json(text: str) -> dict:
