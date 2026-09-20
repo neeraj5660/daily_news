@@ -1,20 +1,27 @@
 """
 fetch_data.py — regenerates data.json for The Morning Desk.
 
+PIPELINE ORDER (updated — see .github/workflows/daily-india-briefing.yml):
+    1. python generate_llm_sections.py   <- NEW. Anthropic API + web search,
+                                             writes manual_sections.json with
+                                             market/radar/insider/calendar/geo
+    2. python fetch_data.py              <- this script, unchanged logic below.
+                                             Reads manual_sections.json (now
+                                             populated by step 1 instead of by
+                                             hand) and merges it with the free
+                                             yfinance/RSS data into data.json.
+
 WHAT THIS SCRIPT AUTOMATES FOR REAL (free, no API key):
   - Index levels + % change (Nifty, Sensex, Bank Nifty, S&P 500, Nasdaq, USDINR, Brent) via yfinance
   - A rolling sparkline for the Nifty 50
   - Headline candidates pulled from financial news RSS feeds
 
-WHAT IT DOES NOT FAKE:
+WHAT IT DOES NOT FETCH ITSELF (unchanged from before):
   FII/DII net flows, insider trades, IPO calendar, and geopolitical items have no
-  reliable free structured API — BSE/NSE publish these as HTML pages, not feeds,
-  and scraping them reliably needs either a paid data vendor (e.g. Twelve Data,
-  a BSE/NSE data subscription) or a maintained scraper with retry/backoff.
-  This script therefore PRESERVES whatever is already in those sections of
-  data.json (or in manual_sections.json, if present) rather than overwriting
-  them with placeholder numbers. Update those sections yourself, or plug in
-  your paid data source inside fetch_fii_dii() / fetch_insider() / etc. below.
+  reliable free structured API — BSE/NSE publish these as HTML pages, not feeds.
+  As of this pipeline update, generate_llm_sections.py fills these in automatically
+  via the Anthropic API before this script runs. manual_sections.json can still be
+  edited by hand if you ever want to override a specific value for a day.
 
 USAGE:
   pip install -r requirements.txt
@@ -30,7 +37,7 @@ from zoneinfo import ZoneInfo
 
 IST = ZoneInfo("Asia/Kolkata")
 DATA_FILE = Path(__file__).parent / "data.json"
-MANUAL_FILE = Path(__file__).parent / "manual_sections.json"  # optional, you maintain this
+MANUAL_FILE = Path(__file__).parent / "manual_sections.json"  # now written by generate_llm_sections.py
 
 INDEX_TICKERS = {
     "NIFTY 50": "^NSEI",
@@ -103,13 +110,19 @@ def fetch_headline():
 
 def load_existing():
     if DATA_FILE.exists():
-        return json.loads(DATA_FILE.read_text())
+        try:
+            return json.loads(DATA_FILE.read_text())
+        except json.JSONDecodeError as e:
+            print(f"[warn] existing data.json is invalid JSON, ignoring: {e}")
     return {}
 
 
 def load_manual_overrides():
     if MANUAL_FILE.exists():
-        return json.loads(MANUAL_FILE.read_text())
+        try:
+            return json.loads(MANUAL_FILE.read_text())
+        except json.JSONDecodeError as e:
+            print(f"[warn] manual_sections.json is invalid JSON, ignoring: {e}")
     return {}
 
 
@@ -126,8 +139,8 @@ def build_feed():
         "ticker": ticker_items or existing.get("ticker", []),
         "hero": headline or existing.get("hero", {}),
         "pulse": {**existing.get("pulse", {}), **pulse} if pulse else existing.get("pulse", {}),
-        # These sections have no free structured source (see docstring) —
-        # prefer manual_sections.json if you maintain one, else keep last known values.
+        # These sections come from manual_sections.json, now written daily by
+        # generate_llm_sections.py (step 1 in the pipeline) rather than by hand.
         "market": manual.get("market", existing.get("market", {})),
         "radar": manual.get("radar", existing.get("radar", [])),
         "insider": manual.get("insider", existing.get("insider", [])),
